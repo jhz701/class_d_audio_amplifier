@@ -1,0 +1,4 @@
+.subckt triang in out
+.model int_fb int(in_offset=0 gain=1e6 out_lower_limit=0 out_upper_limit=1.8 limit_range=1e-9 out_ic=0)
+aint in out int_fb
+.ends

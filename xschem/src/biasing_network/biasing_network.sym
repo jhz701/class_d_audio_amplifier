@@ -1,0 +1,43 @@
+v {xschem version=2.9.9 file_version=1.2 }
+G {}
+K {type=subcircuit
+format="@name @pinlist @symname"
+template="name=x1"
+}
+V {}
+S {}
+E {}
+L 4 -20 -100 -20 100 {}
+L 4 130 -100 130 100 {}
+L 4 130 -70 150 -70 {}
+L 4 130 30 150 30 {}
+L 4 130 -30 150 -30 {}
+L 4 130 -10 150 -10 {}
+L 4 130 10 150 10 {}
+L 4 130 -50 150 -50 {}
+L 4 130 50 150 50 {}
+L 4 130 70 150 70 {}
+L 4 -20 -100 130 -100 {}
+L 4 -20 100 130 100 {}
+B 5 47.5 -102.5 52.5 -97.5 {name=iin_15u dir=inout }
+B 5 147.5 -72.5 152.5 -67.5 {name=ibias1_15u dir=out }
+B 5 147.5 -52.5 152.5 -47.5 {name=ibias2_15u dir=out }
+B 5 147.5 -32.5 152.5 -27.5 {name=ibias3_15u dir=out }
+B 5 147.5 -12.5 152.5 -7.5 {name=ibias4_15u dir=out }
+B 5 147.5 7.5 152.5 12.5 {name=ibias5_15u dir=out }
+B 5 147.5 27.5 152.5 32.5 {name=ibias6_15u dir=out }
+B 5 147.5 47.5 152.5 52.5 {name=ibias7_15u dir=out }
+B 5 147.5 67.5 152.5 72.5 {name=ibias8_15u dir=out }
+B 5 47.5 97.5 52.5 102.5 {name=vss dir=inout }
+T {@symname} -15.5 -26 0 0 0.3 0.3 {}
+T {@name} 135 -112 0 0 0.2 0.2 {}
+T {iin_15u} 55 -94 0 1 0.2 0.2 {}
+T {ibias1_15u} 125 -74 0 1 0.2 0.2 {}
+T {ibias6_15u} 125 26 0 1 0.2 0.2 {}
+T {ibias3_15u} 125 -34 0 1 0.2 0.2 {}
+T {ibias4_15u} 125 -14 0 1 0.2 0.2 {}
+T {ibias5_15u} 125 6 0 1 0.2 0.2 {}
+T {ibias2_15u} 125 -54 0 1 0.2 0.2 {}
+T {ibias7_15u} 125 46 0 1 0.2 0.2 {}
+T {ibias8_15u} 125 66 0 1 0.2 0.2 {}
+T {vss} 55 86 0 1 0.2 0.2 {}

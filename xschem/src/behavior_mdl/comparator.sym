@@ -1,0 +1,27 @@
+v {xschem version=2.9.9 file_version=1.2 }
+G {}
+K {type=primitive
+format="@name @pinlist @symname"
+template="name=x1"
+}
+V {}
+S {}
+E {}
+L 4 40 -50 40 70 {}
+L 4 40 -50 140 10 {}
+L 4 40 70 140 10 {}
+L 4 90 -40 90 -20 {}
+L 4 90 40 90 60 {}
+B 5 37.5 -22.5 42.5 -17.5 {name=inp
+dir=inout}
+B 5 37.5 37.5 42.5 42.5 {name=inn
+dir=inout}
+B 5 137.5 7.5 142.5 12.5 {name=out
+dir=inout}
+B 5 87.5 -42.5 92.5 -37.5 {name=vdd
+dir=inout}
+B 5 87.5 57.5 92.5 62.5 {name=gnd
+dir=inout}
+T {inp} 50 -20 0 0 0.2 0.2 {}
+T {inn} 50 30 0 0 0.2 0.2 {}
+T {CMP} 70 0 0 0 0.3 0.3 {}

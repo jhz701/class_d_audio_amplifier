@@ -1,0 +1,3 @@
+.subckt limiter in out vdd gnd
+Blim out gnd V=V(in)>V(vdd)?V(vdd):(V(in)<V(gnd)?V(gnd):V(in))
+.ends

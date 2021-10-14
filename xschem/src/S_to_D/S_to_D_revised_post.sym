@@ -1,0 +1,37 @@
+v {xschem version=2.9.9 file_version=1.2 }
+G {}
+K {type=primitive
+format="@name @pinlist @symname"
+template="name=x1"
+}
+V {}
+S {}
+E {}
+L 4 20 -20 20 60 {}
+L 4 220 -20 220 60 {}
+L 4 220 10 240 10 {}
+L 4 0 30 20 30 {}
+L 4 0 10 20 10 {}
+L 4 0 50 20 50 {}
+L 4 220 30 240 30 {}
+L 4 20 -20 220 -20 {}
+L 4 20 60 220 60 {}
+L 4 0 -10 20 -10 {}
+B 5 117.5 -22.5 122.5 -17.5 {name=vdd dir=inout }
+B 5 -2.5 -12.5 2.5 -7.5 {name=vbias1 dir=in }
+B 5 -2.5 7.5 2.5 12.5 {name=vbias2 dir=in }
+B 5 -2.5 27.5 2.5 32.5 {name=vi dir=in }
+B 5 -2.5 47.5 2.5 52.5 {name=vref dir=in }
+B 5 117.5 57.5 122.5 62.5 {name=vss dir=inout }
+B 5 237.5 27.5 242.5 32.5 {name=vn dir=out }
+B 5 237.5 7.5 242.5 12.5 {name=vp dir=out }
+T {@symname} 75 14 0 0 0.3 0.3 {}
+T {@name} 225 -32 0 0 0.2 0.2 {}
+T {vdd} 125 -14 0 1 0.2 0.2 {}
+T {vp} 215 6 0 1 0.2 0.2 {}
+T {vi} 25 26 0 0 0.2 0.2 {}
+T {vref} 25 46 0 0 0.2 0.2 {}
+T {vbias2} 25 6 0 0 0.2 0.2 {}
+T {vn} 215 26 0 1 0.2 0.2 {}
+T {vss} 125 46 0 1 0.2 0.2 {}
+T {vbias1} 25 -14 0 0 0.2 0.2 {}

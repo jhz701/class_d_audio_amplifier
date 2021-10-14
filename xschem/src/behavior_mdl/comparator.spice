@@ -1,0 +1,3 @@
+.subckt comparator inp inn out vdd gnd
+Bcmp out gnd V=((V(inp)-V(inn))*700 > 0.9? 1.8 : (V(inp)-V(inn))*700 <-0.9 ? 0 : ((V(inp)-V(inn))*700)+0.9)
+.ends

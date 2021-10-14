@@ -1,0 +1,26 @@
+.subckt ideal_amp inp inn out vdd gnd
+*.model limiter ilimit(in_offset=0 gain=735 r_out_source=1
+*+		      r_out_sink=1 i_limit_source=1e-3
+*+		      i_limit_sink=10e-3 v_pwr_range=0.2
+*+		      i_source_range=1e-6 i_sink_range=1e-6
+*+		      r_out_domain=1e-6)
+*.model amp gain(gain=735)
+*Bsub sub gnd V=V(inp)-V(inn)
+*aamp out_amp gnd amp
+*alim sub vdd gnd out limiter
+
+*controlled limiter
+.model climiter climit(in_offset=0 gain=700 upper_delta=0
++		       lower_delta=0 limit_range=0.1 fraction=FALSE)
+Bsub sub gnd V=V(inp)-V(inn)
+*Bvddnodc vpp gnd V=V(vdd)-0.9
+*Bgndnodc vnn gnd V=V(gnd)-0.9
+aamp sub vdd gnd out climiter
+
+
+
+
+*.param gm=0.02
+*Bi out gnd V=V(sub)*1e3
+*Rout out gnd 1e10
+.ends

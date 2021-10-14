@@ -1,0 +1,6 @@
+.subckt switch n1 n2 vcp vcn 
+.model switch1 sw vt=0 vh=0.1 ron=0.1 roff=10MEG
+*threshold=0.9V, hysteresis=0.1V, ron=0.1ohm, roff=10meg
+s1 n1 n2 vcp vcn switch1 OFF
+*the switch is off during the period of hysteresis
+.ends

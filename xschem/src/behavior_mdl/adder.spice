@@ -1,0 +1,3 @@
+.subckt adder in1 in2 out gnd
+Badd out gnd V=V(in1)-V(in2)
+.ends

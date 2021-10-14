@@ -1,0 +1,5 @@
+.subckt integrator_feedback in out
+.model int_fb int(in_offset=0 gain=500k out_lower_limit=-100 out_upper_limit=100 limit_range=1e-9 out_ic=0.9)
+
+aint in out int_fb
+.ends

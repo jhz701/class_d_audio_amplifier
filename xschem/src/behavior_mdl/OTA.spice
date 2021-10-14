@@ -1,0 +1,3 @@
+.subckt OTA inp inn outp outn
+Gota outp outn inp inn 0.1
+.ends
