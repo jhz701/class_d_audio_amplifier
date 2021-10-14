@@ -1,0 +1,42 @@
+Flattening unmatched subcell OTA in circuit S_to_D (1)(2 instances)
+Flattening unmatched subcell OTA_tri in circuit triangle (1)(1 instance)
+Flattening unmatched subcell OTA in circuit triangle (1)(1 instance)
+Flattening unmatched subcell OTA_int in circuit integrator (1)(1 instance)
+Flattening unmatched subcell inverter in circuit dead_time (1)(1 instance)
+Flattening unmatched subcell nand in circuit dead_time (1)(2 instances)
+Flattening unmatched subcell half_driver in circuit output_driver (1)(2 instances)
+Flattening unmatched subcell S_to_D in circuit /home/eda/.xschem/simulations/Class_D.spice (1)(1 instance)
+Flattening unmatched subcell triangle in circuit /home/eda/.xschem/simulations/Class_D.spice (1)(1 instance)
+Flattening unmatched subcell integrator in circuit /home/eda/.xschem/simulations/Class_D.spice (1)(2 instances)
+Flattening unmatched subcell comparator in circuit /home/eda/.xschem/simulations/Class_D.spice (1)(2 instances)
+Flattening unmatched subcell dead_time in circuit /home/eda/.xschem/simulations/Class_D.spice (1)(2 instances)
+Flattening unmatched subcell biasing_network in circuit /home/eda/.xschem/simulations/Class_D.spice (1)(1 instance)
+Flattening unmatched subcell output_driver in circuit /home/eda/.xschem/simulations/Class_D.spice (1)(1 instance)
+Equate elements:  no current cell.
+Equate elements:  no current cell.
+Equate elements:  no current cell.
+Equate elements:  no current cell.
+Equate elements:  no current cell.
+Equate elements:  no current cell.
+Equate elements:  no current cell.
+Class Class_D.spice:  Merged 10636 devices.
+Class /home/eda/.xschem/simulations/Class_D.spice:  Merged 3 devices.
+
+Subcircuit summary:
+Circuit 1: Class_D.spice                   |Circuit 2: /home/eda/.xschem/simulations/C 
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__cap_mim_m3_2 (4)             |sky130_fd_pr__cap_mim_m3_2 (4)             
+sky130_fd_pr__nfet_01v8_lvt (33)           |sky130_fd_pr__nfet_01v8_lvt (33)           
+sky130_fd_pr__pfet_01v8 (26)               |sky130_fd_pr__pfet_01v8 (26)               
+sky130_fd_pr__pfet_01v8_lvt (40)           |sky130_fd_pr__pfet_01v8_lvt (40)           
+sky130_fd_pr__nfet_01v8 (26)               |sky130_fd_pr__nfet_01v8 (26)               
+sky130_fd_pr__cap_mim_m3_1 (13)            |sky130_fd_pr__cap_mim_m3_1 (13)            
+sky130_fd_pr__res_xhigh_po (15)            |sky130_fd_pr__res_xhigh_po (15)            
+Number of devices: 157                     |Number of devices: 157                     
+Number of nets: 83                         |Number of nets: 83                         
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Netlists match uniquely.
+Cells have no pins;  pin matching not needed.
+Device classes Class_D.spice and /home/eda/.xschem/simulations/Class_D.spice are equivalent.
+Circuits match uniquely.

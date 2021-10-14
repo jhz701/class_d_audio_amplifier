@@ -1,0 +1,841 @@
+timestamp 1629259799
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 2200000 3050000 1700000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12200 125 125 47 47 29 5
+use integrator integrator_0 1 0 -103940 0 1 56496
+use integrator integrator_1 1 0 -103940 0 -1 24944
+use comparator_revised comparator_revised_0 1 0 -69200 0 1 54904
+use comparator_revised comparator_revised_1 1 0 -69200 0 -1 26535
+use dead_time_final dead_time_final_1 1 0 -94234 0 -1 37760
+use dead_time_final dead_time_final_0 1 0 -94234 0 1 43678
+use output_driver_final output_driver_final_0 1 0 -114276 0 1 -1168
+use triangle_revised triangle_revised_0 1 0 -64913 0 1 34158
+use S_to_D_final S_to_D_final_0 1 0 -119284 0 1 30788
+parameters sky130_fd_pr__res_xhigh_po l=l w=w
+parameters sky130_fd_pr__res_xhigh_po_5p73 l=l
+parameters sky130_fd_pr__res_xhigh_po_2p85 l=l
+parameters sky130_fd_pr__res_xhigh_po_1p41 l=l
+parameters sky130_fd_pr__res_xhigh_po_0p69 l=l
+parameters sky130_fd_pr__res_xhigh_po_0p35 l=l
+node "m4_n53782_14642#" 0 2434.35 -53782 14642 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3628456 9236 0 0 0 0
+node "m4_n3148_17434#" 0 29419.1 -3148 17434 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 109721808 57572 0 0 0 0
+node "m4_n53782_24642#" 0 2434.35 -53782 24642 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3628456 9236 0 0 0 0
+node "m4_n69140_29911#" 1 7846.75 -69140 29911 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13578804 30894 0 0 0 0
+node "dvss" 0 46070.8 2922 38364 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 162240600 73636 0 0 0 0
+node "m4_n67848_39912#" 0 4573.61 -67848 39912 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7446448 16672 0 0 0 0
+node "m4_n53782_55794#" 0 2396.68 -53782 55794 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3562192 9104 0 0 0 0
+node "m4_n67946_50524#" 0 3959.83 -67946 50524 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6615568 17412 0 0 0 0
+node "avss" 0 39633.8 -97574 29912 v4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 43865744 80964 58704276 48920 0 0
+node "m4_n3148_59482#" 0 29419.1 -3148 59482 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 109721808 57572 0 0 0 0
+node "m4_n53782_65794#" 0 2396.68 -53782 65794 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3562192 9104 0 0 0 0
+node "avdd" 0 69927.3 -86606 14642 v4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 62267712 109608 141225688 110092 0 0
+node "m3_n2674_6916#" 1 31685.6 -2674 6916 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 39731200 54304 27250024 41324 0 0 0 0
+node "m3_n2674_48964#" 1 31685.6 -2674 48964 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 39731200 54304 27250024 41324 0 0 0 0
+node "m2_n49962_17870#" 3 10684.2 -49962 17870 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 509512 3880 8370822 37450 0 0 0 0 0 0
+node "error_n" 2 2639.58 -50730 20312 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1366020 8820 482184 2808 0 0 0 0 0 0
+node "error_p" 2 2580.87 -50730 60434 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1359552 8688 456912 2704 0 0 0 0 0 0
+node "vtriang" 2 9385.48 -50082 62888 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 517136 4060 6965822 32978 0 0 0 0 0 0
+node "vn_p" 1 10528.3 1326 10486 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2744536 6724 12814384 16980 0 0 0 0 0 0 0 0
+node "vbias8" 1 83.597 -49860 16330 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4980 392 0 0 0 0 0 0 0 0 0 0
+node "vbias6" 1 74.434 -65930 16348 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4760 348 0 0 0 0 0 0 0 0 0 0
+node "vcmp_n" 2 18824.9 -41112 19506 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17044900 37784 0 0 0 0 0 0 0 0 0 0
+node "vn_n" 6 13239.7 2084 23998 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3468960 10608 6311216 33120 0 0 0 0 0 0 0 0
+node "vbias4" 0 66.6562 -79996 39076 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4148 312 0 0 0 0 0 0 0 0 0 0
+node "vbias3" 0 67.744 -79996 42872 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4560 316 0 0 0 0 0 0 0 0 0 0
+node "vbias2" 0 62.3352 -51022 43298 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3808 292 0 0 0 0 0 0 0 0 0 0
+node "vbias1" 1 80.6368 -64550 43324 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5472 376 0 0 0 0 0 0 0 0 0 0
+node "vp_n" 6 12710.6 2084 56656 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3010560 9408 6321096 33172 0 0 0 0 0 0 0 0
+node "vcmp_p" 2 19084.4 -41240 61088 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17204500 38544 0 0 0 0 0 0 0 0 0 0
+node "vbias7" 1 72.43 -49854 64934 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4200 340 0 0 0 0 0 0 0 0 0 0
+node "vbias5" 0 72.8356 -65934 64918 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4824 340 0 0 0 0 0 0 0 0 0 0
+node "vp_p" 1 11076.3 1326 68986 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2744536 6724 13679424 17860 0 0 0 0 0 0 0 0
+node "a_n68283_22497#" 28571 0 -68283 22497 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 70000 2140 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n68715_22497#" 181 5726.3 -68715 22497 xpc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 60480 2008 2523776 11960 485288 4460 0 0 0 0 0 0 0 0
+node "a_n67283_22497#" 382 1785.93 -67283 22497 xpc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 120960 4016 169260 1648 0 0 0 0 0 0 0 0 0 0
+node "a_n68283_22815#" 28571 0 -68283 22815 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 70000 2140 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n68283_23133#" 28571 0 -68283 23133 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 70000 2140 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n68715_22815#" 382 1625.58 -68715 22815 xpc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 120960 4016 169260 1648 0 0 0 0 0 0 0 0 0 0
+node "a_n67283_23133#" 382 1563.18 -67283 23133 xpc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 120960 4016 169260 1648 0 0 0 0 0 0 0 0 0 0
+node "a_n68283_23451#" 28571 0 -68283 23451 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 70000 2140 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n68283_23769#" 28571 0 -68283 23769 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 70000 2140 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n68715_23451#" 382 1620.83 -68715 23451 xpc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 120960 4016 169260 1648 0 0 0 0 0 0 0 0 0 0
+node "a_n67283_23769#" 382 1563.18 -67283 23769 xpc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 120960 4016 169260 1648 0 0 0 0 0 0 0 0 0 0
+node "a_n68283_24087#" 28571 0 -68283 24087 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 70000 2140 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "vin_n" 179 11548.5 -67283 24405 xpc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 60480 2008 1616272 7076 906984 3812 11054278 24450 0 0 0 0 0 0
+node "a_n68283_24405#" 28571 0 -68283 24405 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 70000 2140 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n68715_24087#" 382 1841.47 -68715 24087 xpc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 120960 4016 169260 1648 0 0 0 0 0 0 0 0 0 0
+node "vin_p" 179 11548.5 -67283 56965 xpc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 60480 2008 1616272 7076 906984 3812 11054278 24450 0 0 0 0 0 0
+node "a_n68283_56965#" 28571 0 -68283 56965 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 70000 2140 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n68283_57283#" 28571 0 -68283 57283 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 70000 2140 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n68715_56965#" 382 1841.47 -68715 56965 xpc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 120960 4016 169260 1648 0 0 0 0 0 0 0 0 0 0
+node "a_n67283_57283#" 382 1563.18 -67283 57283 xpc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 120960 4016 169260 1648 0 0 0 0 0 0 0 0 0 0
+node "a_n68283_57601#" 28571 0 -68283 57601 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 70000 2140 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n68283_57919#" 28571 0 -68283 57919 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 70000 2140 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n68715_57601#" 382 1620.83 -68715 57601 xpc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 120960 4016 169260 1648 0 0 0 0 0 0 0 0 0 0
+node "a_n67283_57919#" 382 1563.18 -67283 57919 xpc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 120960 4016 169260 1648 0 0 0 0 0 0 0 0 0 0
+node "a_n68283_58237#" 28571 0 -68283 58237 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 70000 2140 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n68283_58555#" 28571 0 -68283 58555 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 70000 2140 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n68715_58237#" 382 1625.67 -68715 58237 xpc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 120960 4016 169260 1648 0 0 0 0 0 0 0 0 0 0
+node "a_n67283_58555#" 382 1785.93 -67283 58555 xpc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 120960 4016 169260 1648 0 0 0 0 0 0 0 0 0 0
+node "a_n68283_58873#" 28571 0 -68283 58873 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 70000 2140 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n68715_58873#" 179 4527.91 -68715 58873 xpc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 60480 2008 2122952 10620 0 0 0 0 0 0 0 0 0 0
+substrate "w_n68881_22331#" 0 0 -68881 22331 pw 0 0 17896313 35296 0 0 0 0 0 0 584092 34354 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 609292 35074 850000 18400 440000 8400 462000 8600 6110226 31174 0 0 0 0
+cap "m4_n69140_29911#" "vin_n" 3322.92
+cap "a_n68715_58873#" "a_n68715_58237#" 194.358
+cap "a_n68715_22815#" "a_n68715_22497#" 194.358
+cap "a_n67283_23769#" "a_n67283_23133#" 194.358
+cap "m3_n2674_48964#" "vp_p" 8619.23
+cap "m4_n3148_17434#" "m3_n2674_6916#" 17784.5
+cap "error_p" "vtriang" 1133.28
+cap "vp_n" "m3_n2674_48964#" 2216.86
+cap "vn_p" "m3_n2674_6916#" 8619.23
+cap "vn_n" "m3_n2674_6916#" 2216.86
+cap "avdd" "avss" 13412.7
+cap "a_n67283_23769#" "vin_n" 194.358
+cap "a_n68715_58237#" "a_n68715_57601#" 194.358
+cap "a_n67283_57919#" "a_n67283_58555#" 194.358
+cap "vp_p" "m4_n3148_59482#" 2865.1
+cap "a_n67283_22497#" "a_n67283_23133#" 194.358
+cap "a_n68715_23451#" "a_n68715_24087#" 194.358
+cap "m3_n2674_48964#" "m4_n3148_59482#" 17784.5
+cap "vin_p" "a_n67283_57283#" 194.358
+cap "vn_p" "m4_n3148_17434#" 2865.1
+cap "error_n" "m2_n49962_17870#" 1133.28
+cap "a_n67283_57283#" "a_n67283_57919#" 194.358
+cap "vin_p" "m4_n67946_50524#" 3317.76
+cap "a_n68715_57601#" "a_n68715_56965#" 194.358
+cap "a_n68715_23451#" "a_n68715_22815#" 194.358
+device rsubckt sky130_fd_pr__res_xhigh_po -68283 22497 -68282 22498 l=1000 w=70 "w_n68881_22331#" "a_n68283_22497#" 0 0 "a_n68715_22497#" 70 0 "a_n67283_22497#" 70 0
+device rsubckt sky130_fd_pr__res_xhigh_po -68283 22815 -68282 22816 l=1000 w=70 "w_n68881_22331#" "a_n68283_22815#" 0 0 "a_n68715_22815#" 70 0 "a_n67283_22497#" 70 0
+device rsubckt sky130_fd_pr__res_xhigh_po -68283 23133 -68282 23134 l=1000 w=70 "w_n68881_22331#" "a_n68283_23133#" 0 0 "a_n68715_22815#" 70 0 "a_n67283_23133#" 70 0
+device rsubckt sky130_fd_pr__res_xhigh_po -68283 23451 -68282 23452 l=1000 w=70 "w_n68881_22331#" "a_n68283_23451#" 0 0 "a_n68715_23451#" 70 0 "a_n67283_23133#" 70 0
+device rsubckt sky130_fd_pr__res_xhigh_po -68283 23769 -68282 23770 l=1000 w=70 "w_n68881_22331#" "a_n68283_23769#" 0 0 "a_n68715_23451#" 70 0 "a_n67283_23769#" 70 0
+device rsubckt sky130_fd_pr__res_xhigh_po -68283 24087 -68282 24088 l=1000 w=70 "w_n68881_22331#" "a_n68283_24087#" 0 0 "a_n68715_24087#" 70 0 "a_n67283_23769#" 70 0
+device rsubckt sky130_fd_pr__res_xhigh_po -68283 24405 -68282 24406 l=1000 w=70 "w_n68881_22331#" "a_n68283_24405#" 0 0 "a_n68715_24087#" 70 0 "vin_n" 70 0
+device rsubckt sky130_fd_pr__res_xhigh_po -68283 56965 -68282 56966 l=1000 w=70 "w_n68881_22331#" "a_n68283_56965#" 0 0 "a_n68715_56965#" 70 0 "vin_p" 70 0
+device rsubckt sky130_fd_pr__res_xhigh_po -68283 57283 -68282 57284 l=1000 w=70 "w_n68881_22331#" "a_n68283_57283#" 0 0 "a_n68715_56965#" 70 0 "a_n67283_57283#" 70 0
+device rsubckt sky130_fd_pr__res_xhigh_po -68283 57601 -68282 57602 l=1000 w=70 "w_n68881_22331#" "a_n68283_57601#" 0 0 "a_n68715_57601#" 70 0 "a_n67283_57283#" 70 0
+device rsubckt sky130_fd_pr__res_xhigh_po -68283 57919 -68282 57920 l=1000 w=70 "w_n68881_22331#" "a_n68283_57919#" 0 0 "a_n68715_57601#" 70 0 "a_n67283_57919#" 70 0
+device rsubckt sky130_fd_pr__res_xhigh_po -68283 58237 -68282 58238 l=1000 w=70 "w_n68881_22331#" "a_n68283_58237#" 0 0 "a_n68715_58237#" 70 0 "a_n67283_57919#" 70 0
+device rsubckt sky130_fd_pr__res_xhigh_po -68283 58555 -68282 58556 l=1000 w=70 "w_n68881_22331#" "a_n68283_58555#" 0 0 "a_n68715_58237#" 70 0 "a_n67283_58555#" 70 0
+device rsubckt sky130_fd_pr__res_xhigh_po -68283 58873 -68282 58874 l=1000 w=70 "w_n68881_22331#" "a_n68283_58873#" 0 0 "a_n68715_58873#" 70 0 "a_n67283_58555#" 70 0
+subcap "m3_n2674_6916#" -31284.6
+subcap "m3_n2674_6916#" -31515
+subcap "m3_n2674_6916#" -30919.7
+subcap "m3_n2674_6916#" -31242.9
+cap "dead_time_final_1/a_82446_20414#" "dead_time_final_1/w_71638_18872#" 66.99
+cap "dead_time_final_1/w_71638_18872#" "dead_time_final_1/a_82446_20414#" 85.8764
+cap "dead_time_final_1/w_71638_18872#" "dead_time_final_1/a_82446_20414#" 22.6562
+cap "output_driver_final_0/a_117361_12382#" "output_driver_final_0/w_117179_11332#" 489.34
+cap "output_driver_final_0/a_117361_12382#" "output_driver_final_0/a_117409_11551#" 1.13687e-13
+cap "output_driver_final_0/w_117179_11332#" "output_driver_final_0/a_117409_11551#" 329.736
+cap "output_driver_final_0/a_117361_12382#" "output_driver_final_0/w_117179_11332#" 128.777
+cap "output_driver_final_0/a_117361_12382#" "output_driver_final_0/w_117179_11332#" 3.3525
+cap "output_driver_final_0/a_117361_12382#" "output_driver_final_0/w_117179_11332#" 2.48275
+cap "output_driver_final_0/a_117409_11551#" "output_driver_final_0/w_117179_11332#" 743.921
+cap "output_driver_final_0/w_117179_11332#" "output_driver_final_0/a_117409_11551#" -163.965
+cap "output_driver_final_0/a_117361_12382#" "output_driver_final_0/w_117179_11332#" 3.3525
+cap "output_driver_final_0/a_117361_12382#" "output_driver_final_0/w_117179_11332#" 3.3525
+cap "output_driver_final_0/a_117409_11551#" "output_driver_final_0/w_117179_11332#" 743.921
+cap "output_driver_final_0/w_117179_11332#" "output_driver_final_0/a_117409_11551#" 743.921
+cap "output_driver_final_0/a_117361_12382#" "output_driver_final_0/w_117179_11332#" -538.271
+cap "output_driver_final_0/a_117361_12382#" "output_driver_final_0/w_117179_11332#" 3.3525
+cap "output_driver_final_0/w_117179_11332#" "output_driver_final_0/a_117409_11551#" 743.921
+cap "output_driver_final_0/a_117361_12382#" "output_driver_final_0/w_117179_11332#" 3.3525
+cap "output_driver_final_0/a_117361_12382#" "output_driver_final_0/w_117179_11332#" -152.41
+cap "output_driver_final_0/a_117409_11551#" "output_driver_final_0/w_117179_11332#" 743.921
+cap "output_driver_final_0/a_117409_11551#" "output_driver_final_0/w_117179_11332#" 743.921
+cap "output_driver_final_0/a_117361_12382#" "output_driver_final_0/w_117179_11332#" -88.1077
+cap "output_driver_final_0/w_117179_11332#" "output_driver_final_0/a_117361_12382#" 3.3525
+cap "output_driver_final_0/w_117179_11332#" "output_driver_final_0/a_117361_12382#" 2.108
+cap "output_driver_final_0/w_117179_11332#" "output_driver_final_0/a_117361_12382#" -301.82
+cap "dead_time_final_1/w_71188_17360#" "dead_time_final_1/a_82446_20414#" 66.99
+cap "dead_time_final_1/a_82446_20414#" "dead_time_final_1/w_71188_17360#" 140.081
+cap "dead_time_final_1/w_71188_17360#" "dead_time_final_1/a_82446_20414#" 15.4255
+cap "output_driver_final_0/a_117409_11551#" "m4_n3148_17434#" 416.387
+cap "output_driver_final_0/w_117179_11332#" "m4_n3148_17434#" 156.878
+cap "m4_n3148_17434#" "output_driver_final_0/a_117361_12382#" 302.059
+cap "m4_n3148_17434#" "output_driver_final_0/w_117179_11332#" 685.1
+cap "output_driver_final_0/a_117361_12382#" "output_driver_final_0/w_117179_11332#" 150.794
+cap "m4_n3148_17434#" "output_driver_final_0/a_117409_11551#" 893.114
+cap "m4_n3148_17434#" "output_driver_final_0/a_117409_11551#" 14.7268
+cap "output_driver_final_0/w_117179_11332#" "m4_n3148_17434#" 898.714
+cap "output_driver_final_0/a_117361_12382#" "m4_n3148_17434#" 345.516
+cap "output_driver_final_0/w_117179_11332#" "m4_n3148_17434#" 1.3488
+cap "output_driver_final_0/a_117409_11551#" "m4_n3148_17434#" 893.114
+cap "output_driver_final_0/w_117179_11332#" "m4_n3148_17434#" 893.114
+cap "output_driver_final_0/w_117179_11332#" "m4_n3148_17434#" 893.114
+cap "output_driver_final_0/a_117409_11551#" "m4_n3148_17434#" 893.114
+cap "m4_n3148_17434#" "output_driver_final_0/a_117409_11551#" 893.114
+cap "m4_n3148_17434#" "output_driver_final_0/w_117179_11332#" 538.947
+cap "m4_n3148_17434#" "output_driver_final_0/w_117179_11332#" 893.114
+cap "output_driver_final_0/w_117179_11332#" "m4_n3148_17434#" 1.3488
+cap "output_driver_final_0/a_117409_11551#" "m4_n3148_17434#" 893.114
+cap "output_driver_final_0/w_117179_11332#" "m4_n3148_17434#" 893.114
+cap "m4_n3148_17434#" "output_driver_final_0/w_117179_11332#" 893.114
+cap "output_driver_final_0/a_117409_11551#" "m4_n3148_17434#" 893.114
+cap "output_driver_final_0/a_117361_12382#" "m4_n3148_17434#" -1.2075
+cap "output_driver_final_0/a_117361_12382#" "m4_n3148_17434#" -6.8325
+cap "output_driver_final_0/a_117361_12382#" "m4_n3148_17434#" -578.755
+cap "output_driver_final_0/a_117361_12382#" "m4_n3148_17434#" -274.625
+cap "output_driver_final_0/w_117179_11332#" "m4_n3148_17434#" 0.174
+cap "output_driver_final_0/a_117361_12382#" "m4_n3148_17434#" 96.3187
+cap "output_driver_final_0/a_117361_12382#" "m4_n3148_17434#" 145.381
+cap "output_driver_final_0/w_117179_11332#" "m4_n3148_17434#" -1003.78
+subcap "m4_n53782_14642#" -2525.76
+cap "m4_n3148_17434#" "output_driver_final_0/w_117179_11332#" 682.464
+cap "m4_n3148_17434#" "output_driver_final_0/w_117179_11332#" 156.644
+cap "m4_n3148_17434#" "output_driver_final_0/a_117409_11551#" 406.412
+cap "m4_n3148_17434#" "output_driver_final_0/a_117361_12382#" 766.508
+cap "output_driver_final_0/a_117409_11551#" "m4_n3148_17434#" 898.183
+cap "m4_n3148_17434#" "output_driver_final_0/w_117179_11332#" 898.183
+cap "m4_n3148_17434#" "output_driver_final_0/a_117361_12382#" 5.2275
+cap "m4_n3148_17434#" "output_driver_final_0/a_117409_11551#" 898.183
+cap "output_driver_final_0/w_117179_11332#" "m4_n3148_17434#" 1.7904
+cap "m4_n3148_17434#" "output_driver_final_0/w_117179_11332#" 898.503
+cap "output_driver_final_0/a_117361_12382#" "m4_n3148_17434#" 4.29525
+cap "m4_n3148_17434#" "output_driver_final_0/a_117409_11551#" -86.2184
+cap "output_driver_final_0/a_117409_11551#" "m4_n3148_17434#" 898.183
+cap "m4_n3148_17434#" "output_driver_final_0/a_117361_12382#" 158.996
+cap "m4_n3148_17434#" "output_driver_final_0/a_117361_12382#" 5.2275
+cap "m4_n3148_17434#" "output_driver_final_0/w_117179_11332#" 898.183
+cap "output_driver_final_0/a_117361_12382#" "m4_n3148_17434#" 5.2275
+cap "output_driver_final_0/a_117361_12382#" "m4_n3148_17434#" -152.348
+cap "output_driver_final_0/w_117179_11332#" "m4_n3148_17434#" 898.183
+cap "output_driver_final_0/a_117361_12382#" "m4_n3148_17434#" 5.2275
+cap "output_driver_final_0/a_117361_12382#" "m4_n3148_17434#" 5.2275
+cap "m4_n3148_17434#" "output_driver_final_0/a_117409_11551#" 898.183
+cap "m4_n3148_17434#" "output_driver_final_0/w_117179_11332#" 898.183
+cap "output_driver_final_0/a_117361_12382#" "m4_n3148_17434#" -198.441
+cap "output_driver_final_0/w_117179_11332#" "m4_n3148_17434#" 535.582
+cap "m4_n3148_17434#" "output_driver_final_0/a_117409_11551#" 898.183
+cap "m4_n3148_17434#" "output_driver_final_0/w_117179_11332#" 1.6896
+cap "output_driver_final_0/a_117361_12382#" "m4_n3148_17434#" 5.2275
+cap "m4_n3148_17434#" "output_driver_final_0/a_117361_12382#" -83.4952
+cap "m4_n3148_17434#" "output_driver_final_0/a_117409_11551#" 898.183
+cap "m4_n3148_17434#" "output_driver_final_0/w_117179_11332#" 898.183
+cap "m4_n3148_17434#" "output_driver_final_0/a_117361_12382#" 50.0392
+cap "m4_n3148_17434#" "output_driver_final_0/w_117179_11332#" -1438.25
+cap "m4_n3148_17434#" "output_driver_final_0/w_117179_11332#" 0.0996
+cap "integrator_1/vi" "avdd" 383.234
+subcap "m4_n53782_14642#" -1293.04
+cap "integrator_1/vout" "integrator_1/vdd" 1435.07
+cap "output_driver_final_0/a_117361_12382#" "m4_n3148_17434#" 1.2375
+cap "m4_n3148_17434#" "output_driver_final_0/w_117179_11332#" 595.176
+cap "output_driver_final_0/a_117361_12382#" "m4_n3148_17434#" 2.805
+cap "output_driver_final_0/w_117179_11332#" "m4_n3148_17434#" 178.704
+cap "output_driver_final_0/a_117409_11551#" "m4_n3148_17434#" 347.884
+cap "output_driver_final_0/a_117361_12382#" "m4_n3148_17434#" 817.496
+cap "m4_n3148_17434#" "output_driver_final_0/a_117409_11551#" 781.288
+cap "output_driver_final_0/a_117409_11551#" "m4_n3148_17434#" 781.288
+cap "output_driver_final_0/a_117361_12382#" "m4_n3148_17434#" 1.2375
+cap "output_driver_final_0/w_117179_11332#" "m4_n3148_17434#" 781.288
+cap "m4_n3148_17434#" "output_driver_final_0/a_117361_12382#" -118.897
+cap "output_driver_final_0/a_117409_11551#" "m4_n3148_17434#" 781.288
+cap "m4_n3148_17434#" "output_driver_final_0/w_117179_11332#" 781.288
+cap "m4_n3148_17434#" "output_driver_final_0/a_117361_12382#" 1.2375
+cap "m4_n3148_17434#" "output_driver_final_0/w_117179_11332#" 781.448
+cap "output_driver_final_0/w_117179_11332#" "m4_n3148_17434#" 0.6665
+cap "m4_n3148_17434#" "output_driver_final_0/a_117361_12382#" 1.2375
+cap "m4_n3148_17434#" "output_driver_final_0/a_117361_12382#" 2.805
+cap "m4_n3148_17434#" "output_driver_final_0/a_117409_11551#" -144.746
+cap "output_driver_final_0/a_117361_12382#" "m4_n3148_17434#" 2.805
+cap "output_driver_final_0/a_117361_12382#" "m4_n3148_17434#" 2.805
+cap "output_driver_final_0/a_117361_12382#" "m4_n3148_17434#" 1.2375
+cap "output_driver_final_0/a_117361_12382#" "m4_n3148_17434#" -111.409
+cap "output_driver_final_0/w_117179_11332#" "m4_n3148_17434#" 781.288
+cap "output_driver_final_0/w_117179_11332#" "m4_n3148_17434#" -46.0731
+cap "output_driver_final_0/a_117409_11551#" "m4_n3148_17434#" 781.288
+cap "output_driver_final_0/a_117409_11551#" "m4_n3148_17434#" 781.288
+cap "output_driver_final_0/a_117361_12382#" "m4_n3148_17434#" 1.2375
+cap "output_driver_final_0/a_117361_12382#" "m4_n3148_17434#" -12.54
+cap "output_driver_final_0/a_117361_12382#" "m4_n3148_17434#" -25.08
+cap "output_driver_final_0/w_117179_11332#" "m4_n3148_17434#" 461.064
+cap "output_driver_final_0/a_117361_12382#" "m4_n3148_17434#" 2.805
+cap "output_driver_final_0/w_117179_11332#" "m4_n3148_17434#" 781.288
+cap "output_driver_final_0/a_117361_12382#" "m4_n3148_17434#" 2.805
+cap "output_driver_final_0/a_117409_11551#" "m4_n3148_17434#" 781.288
+cap "output_driver_final_0/a_117361_12382#" "m4_n3148_17434#" 1.2375
+cap "output_driver_final_0/w_117179_11332#" "m4_n3148_17434#" 781.288
+cap "m4_n3148_17434#" "output_driver_final_0/a_117361_12382#" -584.012
+cap "output_driver_final_0/a_117361_12382#" "m4_n3148_17434#" 2.805
+cap "output_driver_final_0/a_117361_12382#" "m4_n3148_17434#" -496.612
+cap "m4_n3148_17434#" "output_driver_final_0/w_117179_11332#" -140.4
+cap "m4_n3148_17434#" "output_driver_final_0/w_117179_11332#" -1394.41
+cap "m4_n3148_17434#" "output_driver_final_0/a_117361_12382#" -101.65
+cap "m4_n3148_17434#" "output_driver_final_0/a_117361_12382#" 10.5575
+cap "m4_n3148_17434#" "output_driver_final_0/a_117361_12382#" -274.625
+cap "output_driver_final_0/a_117361_12382#" "m4_n3148_17434#" -301.82
+cap "m4_n3148_17434#" "output_driver_final_0/a_117361_12382#" 1.88125
+subcap "vbias8" -1218.64
+subcap "m4_n3148_17434#" -28623
+cap "output_driver_final_0/w_117179_11332#" "m4_n3148_17434#" 678.375
+cap "output_driver_final_0/a_117361_12382#" "m4_n3148_17434#" 764.348
+cap "output_driver_final_0/w_117179_11332#" "m4_n3148_17434#" 157.853
+cap "output_driver_final_0/a_117409_11551#" "m4_n3148_17434#" 415.027
+cap "output_driver_final_0/a_117409_11551#" "m4_n3148_17434#" 892.474
+cap "output_driver_final_0/a_117361_12382#" "m4_n3148_17434#" 4.5925
+cap "output_driver_final_0/a_117361_12382#" "m4_n3148_17434#" 5.535
+cap "m4_n3148_17434#" "output_driver_final_0/w_117179_11332#" 892.634
+cap "m4_n3148_17434#" "output_driver_final_0/w_117179_11332#" 1.4628
+cap "output_driver_final_0/a_117361_12382#" "m4_n3148_17434#" 5.535
+cap "output_driver_final_0/w_117179_11332#" "m4_n3148_17434#" 892.474
+cap "m4_n3148_17434#" "output_driver_final_0/a_117409_11551#" 892.474
+cap "output_driver_final_0/w_117179_11332#" "m4_n3148_17434#" 892.474
+cap "output_driver_final_0/a_117361_12382#" "m4_n3148_17434#" 5.535
+cap "m4_n3148_17434#" "output_driver_final_0/a_117409_11551#" 10.0068
+cap "output_driver_final_0/a_117361_12382#" "m4_n3148_17434#" 146.916
+cap "m4_n3148_17434#" "output_driver_final_0/a_117409_11551#" 892.474
+cap "output_driver_final_0/a_117361_12382#" "m4_n3148_17434#" -126.723
+cap "output_driver_final_0/a_117361_12382#" "m4_n3148_17434#" 5.535
+cap "output_driver_final_0/a_117361_12382#" "m4_n3148_17434#" -77.4352
+cap "output_driver_final_0/w_117179_11332#" "m4_n3148_17434#" 892.474
+cap "output_driver_final_0/a_117409_11551#" "m4_n3148_17434#" 892.474
+cap "output_driver_final_0/a_117361_12382#" "m4_n3148_17434#" -152.337
+cap "output_driver_final_0/a_117409_11551#" "m4_n3148_17434#" 892.474
+cap "output_driver_final_0/a_117361_12382#" "m4_n3148_17434#" 5.535
+cap "output_driver_final_0/w_117179_11332#" "m4_n3148_17434#" 1.362
+cap "output_driver_final_0/a_117409_11551#" "m4_n3148_17434#" 892.474
+cap "output_driver_final_0/w_117179_11332#" "m4_n3148_17434#" 892.474
+cap "output_driver_final_0/w_117179_11332#" "m4_n3148_17434#" 892.474
+cap "output_driver_final_0/w_117179_11332#" "m4_n3148_17434#" 538.627
+cap "output_driver_final_0/a_117361_12382#" "m4_n3148_17434#" 5.535
+cap "m4_n3148_17434#" "output_driver_final_0/a_117361_12382#" 48.6592
+cap "m4_n3148_17434#" "output_driver_final_0/w_117179_11332#" -1004.1
+cap "m4_n3148_17434#" "output_driver_final_0/w_117179_11332#" 0.0744
+subcap "m2_n49962_17870#" -10704.3
+subcap "m2_n49962_17870#" -9585.3
+cap "comparator_revised_1/vbias" "comparator_revised_1/vn" 208.075
+subcap "m4_n3148_17434#" -27526.4
+cap "dead_time_final_1/w_71188_17360#" "m3_n2674_6916#" 1.13687e-13
+cap "output_driver_final_0/a_117361_12382#" "m4_n3148_17434#" 5.775
+cap "output_driver_final_0/a_117409_11551#" "m4_n3148_17434#" 416.387
+cap "output_driver_final_0/w_117179_11332#" "m4_n3148_17434#" 680.615
+cap "m4_n3148_17434#" "output_driver_final_0/a_117361_12382#" 720.612
+cap "output_driver_final_0/w_117179_11332#" "m4_n3148_17434#" 158.246
+cap "output_driver_final_0/w_117179_11332#" "m4_n3148_17434#" 898.714
+cap "m4_n3148_17434#" "output_driver_final_0/w_117179_11332#" 1.3488
+cap "m4_n3148_17434#" "output_driver_final_0/a_117409_11551#" 893.114
+cap "m4_n3148_17434#" "output_driver_final_0/w_117179_11332#" 893.114
+cap "m4_n3148_17434#" "output_driver_final_0/a_117409_11551#" 14.7268
+cap "m4_n3148_17434#" "output_driver_final_0/a_117361_12382#" 328.191
+cap "m4_n3148_17434#" "output_driver_final_0/a_117361_12382#" 5.775
+cap "m4_n3148_17434#" "output_driver_final_0/a_117361_12382#" 5.775
+cap "m4_n3148_17434#" "output_driver_final_0/a_117409_11551#" 893.114
+cap "m4_n3148_17434#" "output_driver_final_0/a_117409_11551#" 893.114
+cap "m4_n3148_17434#" "output_driver_final_0/a_117361_12382#" 5.775
+cap "m4_n3148_17434#" "output_driver_final_0/w_117179_11332#" 893.114
+cap "output_driver_final_0/a_117361_12382#" "m4_n3148_17434#" -578.755
+cap "output_driver_final_0/a_117361_12382#" "m4_n3148_17434#" 5.775
+cap "output_driver_final_0/w_117179_11332#" "m4_n3148_17434#" 893.114
+cap "output_driver_final_0/a_117361_12382#" "m4_n3148_17434#" 5.775
+cap "output_driver_final_0/w_117179_11332#" "m4_n3148_17434#" 538.947
+cap "output_driver_final_0/w_117179_11332#" "m4_n3148_17434#" 893.114
+cap "output_driver_final_0/a_117361_12382#" "m4_n3148_17434#" 5.775
+cap "output_driver_final_0/a_117361_12382#" "m4_n3148_17434#" -0.285
+cap "output_driver_final_0/w_117179_11332#" "m4_n3148_17434#" 1.3488
+cap "output_driver_final_0/a_117409_11551#" "m4_n3148_17434#" 893.114
+cap "output_driver_final_0/a_117361_12382#" "m4_n3148_17434#" -25.08
+cap "output_driver_final_0/a_117409_11551#" "m4_n3148_17434#" 893.114
+cap "output_driver_final_0/a_117409_11551#" "m4_n3148_17434#" 893.114
+cap "output_driver_final_0/w_117179_11332#" "m4_n3148_17434#" 893.114
+cap "output_driver_final_0/a_117361_12382#" "m4_n3148_17434#" 153.427
+cap "output_driver_final_0/a_117361_12382#" "m4_n3148_17434#" -274.625
+cap "output_driver_final_0/w_117179_11332#" "m4_n3148_17434#" -1003.78
+cap "output_driver_final_0/w_117179_11332#" "m4_n3148_17434#" 0.174
+cap "output_driver_final_0/a_117361_12382#" "m4_n3148_17434#" 88.2725
+subcap "error_n" -2749.74
+subcap "vcmp_n" -17980.9
+cap "dead_time_final_1/w_71188_17360#" "vcmp_n" 6.65816
+cap "vcmp_n" "dead_time_final_1/w_71188_17360#" -48
+cap "vcmp_n" "dead_time_final_1/w_71188_17360#" 150.521
+cap "output_driver_final_0/w_117179_11332#" "m4_n3148_17434#" 156.64
+cap "m4_n3148_17434#" "output_driver_final_0/a_117361_12382#" 3.225
+cap "m4_n3148_17434#" "output_driver_final_0/a_117409_11551#" 375.554
+cap "m4_n3148_17434#" "output_driver_final_0/a_117361_12382#" 798.359
+cap "m4_n3148_17434#" "output_driver_final_0/w_117179_11332#" 629.24
+cap "output_driver_final_0/w_117179_11332#" "m4_n3148_17434#" 2.8116
+cap "output_driver_final_0/a_117361_12382#" "m4_n3148_17434#" 3.045
+cap "output_driver_final_0/a_117409_11551#" "m4_n3148_17434#" 839.827
+cap "output_driver_final_0/a_117409_11551#" "m4_n3148_17434#" 839.827
+cap "m4_n3148_17434#" "output_driver_final_0/a_117361_12382#" 3.225
+cap "m4_n3148_17434#" "output_driver_final_0/w_117179_11332#" 840.147
+cap "output_driver_final_0/a_117409_11551#" "m4_n3148_17434#" 839.827
+cap "output_driver_final_0/a_117361_12382#" "m4_n3148_17434#" 3.045
+cap "m4_n3148_17434#" "output_driver_final_0/a_117361_12382#" 3.225
+cap "output_driver_final_0/a_117361_12382#" "m4_n3148_17434#" 3.225
+cap "output_driver_final_0/a_117361_12382#" "m4_n3148_17434#" 3.045
+cap "m4_n3148_17434#" "output_driver_final_0/a_117361_12382#" 419.484
+cap "output_driver_final_0/w_117179_11332#" "m4_n3148_17434#" 839.827
+cap "output_driver_final_0/a_117361_12382#" "m4_n3148_17434#" 2.1855
+cap "output_driver_final_0/w_117179_11332#" "m4_n3148_17434#" 839.827
+cap "m4_n3148_17434#" "output_driver_final_0/a_117409_11551#" -292.161
+cap "m4_n3148_17434#" "output_driver_final_0/a_117361_12382#" 3.045
+cap "m4_n3148_17434#" "output_driver_final_0/a_117361_12382#" -25.08
+cap "m4_n3148_17434#" "output_driver_final_0/a_117361_12382#" 3.225
+cap "m4_n3148_17434#" "output_driver_final_0/w_117179_11332#" 839.827
+cap "m4_n3148_17434#" "output_driver_final_0/w_117179_11332#" 2.7108
+cap "m4_n3148_17434#" "output_driver_final_0/a_117361_12382#" -152.42
+cap "m4_n3148_17434#" "output_driver_final_0/w_117179_11332#" 839.827
+cap "m4_n3148_17434#" "output_driver_final_0/a_117361_12382#" 3.045
+cap "m4_n3148_17434#" "output_driver_final_0/w_117179_11332#" 496.204
+cap "m4_n3148_17434#" "output_driver_final_0/a_117361_12382#" 3.225
+cap "m4_n3148_17434#" "output_driver_final_0/a_117361_12382#" -653.585
+cap "output_driver_final_0/a_117361_12382#" "m4_n3148_17434#" 3.045
+cap "output_driver_final_0/a_117361_12382#" "m4_n3148_17434#" -89.0302
+cap "m4_n3148_17434#" "output_driver_final_0/a_117409_11551#" 839.827
+cap "m4_n3148_17434#" "output_driver_final_0/w_117179_11332#" 839.827
+cap "m4_n3148_17434#" "output_driver_final_0/a_117409_11551#" 839.827
+cap "m4_n3148_17434#" "output_driver_final_0/a_117409_11551#" 839.827
+cap "m4_n3148_17434#" "output_driver_final_0/a_117361_12382#" 3.225
+cap "m4_n3148_17434#" "output_driver_final_0/w_117179_11332#" -2037.74
+cap "m4_n3148_17434#" "output_driver_final_0/a_117361_12382#" -274.625
+cap "output_driver_final_0/a_117361_12382#" "m4_n3148_17434#" 21.5475
+cap "m4_n3148_17434#" "output_driver_final_0/a_117361_12382#" -5.93825
+cap "m4_n3148_17434#" "output_driver_final_0/w_117179_11332#" 0.2484
+subcap "error_n" -1108.26
+cap "dead_time_final_1/w_71188_17360#" "dead_time_final_1/a_71368_17226#" -48
+cap "dead_time_final_1/w_71188_17360#" "dead_time_final_1/a_71368_17226#" 9.64286
+cap "dead_time_final_1/a_71368_17226#" "dead_time_final_1/w_71188_17360#" 108.863
+cap "m4_n3148_17434#" "output_driver_final_0/w_117179_11332#" 131.892
+cap "m4_n3148_17434#" "output_driver_final_0/a_117361_12382#" 528.202
+cap "output_driver_final_0/w_117179_11332#" "m4_n3148_17434#" 390.317
+cap "m4_n3148_17434#" "output_driver_final_0/a_117409_11551#" 443.396
+cap "m4_n3148_17434#" "output_driver_final_0/w_117179_11332#" 526.675
+cap "m4_n3148_17434#" "output_driver_final_0/w_117179_11332#" 526.515
+cap "m4_n3148_17434#" "output_driver_final_0/w_117179_11332#" 13.685
+cap "m4_n3148_17434#" "output_driver_final_0/w_117179_11332#" 526.515
+cap "m4_n3148_17434#" "output_driver_final_0/a_117409_11551#" 2832.13
+cap "m4_n3148_17434#" "output_driver_final_0/a_117361_12382#" -259.76
+cap "output_driver_final_0/w_117179_11332#" "m4_n3148_17434#" 321.936
+cap "m4_n3148_17434#" "output_driver_final_0/w_117179_11332#" -27.6738
+cap "m4_n3148_17434#" "output_driver_final_0/w_117179_11332#" 526.515
+cap "m4_n3148_17434#" "output_driver_final_0/w_117179_11332#" 526.515
+cap "m4_n3148_17434#" "output_driver_final_0/a_117361_12382#" -97.4415
+cap "m4_n3148_17434#" "output_driver_final_0/a_117409_11551#" 2826.93
+cap "m4_n3148_17434#" "output_driver_final_0/w_117179_11332#" 526.515
+cap "m4_n3148_17434#" "output_driver_final_0/a_117361_12382#" -127.997
+cap "output_driver_final_0/a_117361_12382#" "m4_n3148_17434#" -122.753
+cap "output_driver_final_0/w_117179_11332#" "m4_n3148_17434#" -152.584
+cap "output_driver_final_0/a_117409_11551#" "m4_n3148_17434#" -294.676
+cap "output_driver_final_0/w_117179_11332#" "m4_n3148_17434#" -572.856
+cap "m4_n3148_17434#" "output_driver_final_0/a_117409_11551#" 292.126
+cap "m4_n3148_17434#" "output_driver_final_0/a_117409_11551#" 2228.65
+cap "output_driver_final_0/a_117409_11551#" "m4_n3148_17434#" 2138.36
+cap "m4_n3148_17434#" "output_driver_final_0/a_117409_11551#" 112.738
+subcap "a_n67283_22497#" -1416.26
+subcap "a_n67283_23133#" -72.1875
+subcap "a_n67283_23769#" -480.169
+subcap "vin_n" -12312.2
+subcap "vn_n" -12846.2
+subcap "a_n67283_23769#" -1819.21
+subcap "vin_n" -10208.6
+subcap "m4_n53782_24642#" -1776.19
+cap "comparator_revised_1/vss" "m2_n49962_17870#" 1466.34
+cap "dead_time_final_1/a_77596_11864#" "dead_time_final_1/w_71188_17360#" 15.1872
+subcap "vn_n" -11827.3
+cap "m2_n49962_17870#" "comparator_revised_1/vss" 329.939
+subcap "m4_n69140_29911#" -7829.64
+subcap "m4_n69140_29911#" -6320.41
+cap "m4_n69140_29911#" "triangle_revised_0/vsquare" 418.72
+subcap "dvss" -45983.1
+subcap "dvss" -45770.1
+subcap "m4_n67848_39912#" -4577.69
+subcap "m4_n67848_39912#" -4683.53
+subcap "dvss" -45733.4
+subcap "dvss" -45678.8
+cap "avdd" "S_to_D_final_0/a_39505_6308#" 117.28
+cap "S_to_D_final_0/w_39137_6977#" "S_to_D_final_0/a_39505_6308#" -58.905
+subcap "m4_n67848_39912#" -4106.17
+subcap "m4_n67848_39912#" -3262.8
+cap "avdd" "S_to_D_final_0/a_39505_6308#" 72.968
+cap "S_to_D_final_0/a_39505_6308#" "S_to_D_final_0/w_39137_6977#" -218.026
+subcap "vbias1" -243.655
+subcap "vbias2" -597.614
+subcap "vbias1" -1329.03
+cap "triangle_revised_0/a_n471_7581#" "triangle_revised_0/OTA_tri_revised_0/vdd" 329.792
+cap "triangle_revised_0/a_n471_7581#" "m4_n67848_39912#" 63.75
+cap "triangle_revised_0/a_n471_7581#" "triangle_revised_0/vt" 152.65
+subcap "m4_n67946_50524#" -2640.15
+subcap "m4_n67946_50524#" -3875.11
+cap "m4_n67946_50524#" "vin_p" -0.86
+subcap "m4_n67946_50524#" -3076.67
+subcap "m4_n67946_50524#" -3694.97
+cap "m4_n67946_50524#" "vin_p" -131.705
+subcap "m4_n53782_55794#" -1901.14
+cap "comparator_revised_0/vss" "vtriang" 843.144
+subcap "vp_n" -11879.5
+subcap "vin_p" -10474.3
+subcap "a_n67283_57283#" -72.1875
+subcap "a_n67283_57919#" -2116.67
+cap "vtriang" "comparator_revised_0/vss" 800.488
+cap "dead_time_final_0/a_77596_11864#" "dead_time_final_0/w_71188_17360#" 15.1872
+subcap "vp_n" -11181.7
+subcap "m4_n3148_59482#" -29522.7
+subcap "error_p" -1702.02
+subcap "m4_n3148_59482#" -28882.5
+cap "m4_n3148_59482#" "output_driver_final_0/a_117409_52841#" 448.07
+cap "output_driver_final_0/a_117409_52841#" "m4_n3148_59482#" 3363.49
+cap "output_driver_final_0/a_117409_52841#" "m4_n3148_59482#" 3273.2
+cap "m4_n3148_59482#" "output_driver_final_0/a_117409_52841#" 303.268
+subcap "error_p" -1324.51
+subcap "vcmp_p" -19305.9
+subcap "vcmp_p" -17746.4
+cap "dead_time_final_0/a_71368_17226#" "dead_time_final_0/w_71188_17360#" -72
+cap "dead_time_final_0/w_71188_17360#" "dead_time_final_0/a_71368_17226#" 16.301
+cap "dead_time_final_0/a_71368_17226#" "dead_time_final_0/w_71188_17360#" 209.069
+cap "output_driver_final_0/w_117179_62159#" "m4_n3148_59482#" 129.386
+cap "output_driver_final_0/a_117409_52841#" "m4_n3148_59482#" 445.185
+cap "output_driver_final_0/w_117179_62159#" "m4_n3148_59482#" 378.955
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" 517.373
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" -260.91
+cap "m4_n3148_59482#" "output_driver_final_0/a_117409_52841#" 2845.27
+cap "m4_n3148_59482#" "output_driver_final_0/w_117179_62159#" 13.685
+cap "m4_n3148_59482#" "output_driver_final_0/w_117179_62159#" 511.854
+cap "m4_n3148_59482#" "output_driver_final_0/w_117179_62159#" 512.014
+cap "output_driver_final_0/w_117179_62159#" "m4_n3148_59482#" 511.854
+cap "output_driver_final_0/a_117361_62281#" "m4_n3148_59482#" -97.9365
+cap "output_driver_final_0/w_117179_62159#" "m4_n3148_59482#" 511.854
+cap "output_driver_final_0/w_117179_62159#" "m4_n3148_59482#" 511.854
+cap "output_driver_final_0/w_117179_62159#" "m4_n3148_59482#" 511.854
+cap "output_driver_final_0/a_117361_62281#" "m4_n3148_59482#" -128.498
+cap "m4_n3148_59482#" "output_driver_final_0/a_117409_52841#" 2847.63
+cap "output_driver_final_0/w_117179_62159#" "m4_n3148_59482#" 312.967
+cap "output_driver_final_0/w_117179_62159#" "m4_n3148_59482#" -27.6738
+cap "m4_n3148_59482#" "output_driver_final_0/w_117179_62159#" -578.548
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" -127.07
+cap "m4_n3148_59482#" "output_driver_final_0/a_117409_52841#" -283.817
+cap "m4_n3148_59482#" "output_driver_final_0/w_117179_62159#" -152.584
+subcap "vtriang" -9204.21
+subcap "vtriang" -8576.38
+cap "dead_time_final_0/w_71188_17360#" "vcmp_p" -24
+cap "vcmp_p" "dead_time_final_0/w_71188_17360#" 21.425
+cap "m4_n3148_59482#" "output_driver_final_0/a_117409_52841#" 375.554
+cap "output_driver_final_0/a_117361_62281#" "m4_n3148_59482#" 798.194
+cap "output_driver_final_0/a_117361_62281#" "m4_n3148_59482#" 3.39
+cap "m4_n3148_59482#" "output_driver_final_0/w_117179_62159#" 629.24
+cap "m4_n3148_59482#" "output_driver_final_0/w_117179_62159#" 156.64
+cap "m4_n3148_59482#" "output_driver_final_0/w_117179_62159#" 840.147
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" 3.39
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" 2.026
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" 419.644
+cap "m4_n3148_59482#" "output_driver_final_0/a_117409_52841#" 839.827
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" 2.88
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" 3.39
+cap "m4_n3148_59482#" "output_driver_final_0/a_117409_52841#" -292.161
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" 2.88
+cap "m4_n3148_59482#" "output_driver_final_0/w_117179_62159#" 839.827
+cap "m4_n3148_59482#" "output_driver_final_0/w_117179_62159#" 2.8116
+cap "m4_n3148_59482#" "output_driver_final_0/a_117409_52841#" 839.827
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" 2.88
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" 3.39
+cap "m4_n3148_59482#" "output_driver_final_0/w_117179_62159#" 839.827
+cap "m4_n3148_59482#" "output_driver_final_0/a_117409_52841#" 839.827
+cap "m4_n3148_59482#" "output_driver_final_0/w_117179_62159#" 839.827
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" -152.426
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" 2.88
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" 3.39
+cap "m4_n3148_59482#" "output_driver_final_0/w_117179_62159#" 2.7108
+cap "m4_n3148_59482#" "output_driver_final_0/w_117179_62159#" 839.827
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" 3.39
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" -653.085
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" 2.88
+cap "m4_n3148_59482#" "output_driver_final_0/a_117409_52841#" 839.827
+cap "m4_n3148_59482#" "output_driver_final_0/a_117409_52841#" 839.827
+cap "m4_n3148_59482#" "output_driver_final_0/w_117179_62159#" 496.204
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" 3.39
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" -25.08
+cap "m4_n3148_59482#" "output_driver_final_0/w_117179_62159#" 839.827
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" -89.5252
+cap "m4_n3148_59482#" "output_driver_final_0/a_117409_52841#" 839.827
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" 2.88
+cap "m4_n3148_59482#" "output_driver_final_0/w_117179_62159#" 0.2484
+cap "m4_n3148_59482#" "output_driver_final_0/w_117179_62159#" -2037.74
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" -10.2557
+cap "output_driver_final_0/a_117361_62281#" "m4_n3148_59482#" 25.865
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" -274.625
+subcap "vbias5" -1569.18
+subcap "vbias7" -879.227
+cap "comparator_revised_0/vn" "comparator_revised_0/vbias" 202.369
+cap "m4_n3148_59482#" "output_driver_final_0/w_117179_62159#" 158.246
+cap "m4_n3148_59482#" "output_driver_final_0/a_117409_52841#" 416.387
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" 720.777
+cap "output_driver_final_0/a_117361_62281#" "m4_n3148_59482#" 5.61
+cap "output_driver_final_0/w_117179_62159#" "m4_n3148_59482#" 680.615
+cap "output_driver_final_0/w_117179_62159#" "m4_n3148_59482#" 893.114
+cap "output_driver_final_0/w_117179_62159#" "m4_n3148_59482#" 898.714
+cap "output_driver_final_0/a_117361_62281#" "m4_n3148_59482#" 5.61
+cap "output_driver_final_0/a_117361_62281#" "m4_n3148_59482#" 328.686
+cap "output_driver_final_0/w_117179_62159#" "m4_n3148_59482#" 1.3488
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" 5.61
+cap "output_driver_final_0/a_117409_52841#" "m4_n3148_59482#" 893.114
+cap "m4_n3148_59482#" "output_driver_final_0/a_117409_52841#" 893.114
+cap "output_driver_final_0/a_117361_62281#" "m4_n3148_59482#" 5.61
+cap "output_driver_final_0/w_117179_62159#" "m4_n3148_59482#" 893.114
+cap "output_driver_final_0/a_117409_52841#" "m4_n3148_59482#" 14.7268
+cap "output_driver_final_0/a_117409_52841#" "m4_n3148_59482#" 893.114
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" -25.08
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" -578.755
+cap "m4_n3148_59482#" "output_driver_final_0/a_117409_52841#" 893.114
+cap "m4_n3148_59482#" "output_driver_final_0/a_117409_52841#" 893.114
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" 5.61
+cap "m4_n3148_59482#" "output_driver_final_0/w_117179_62159#" 893.114
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" 5.61
+cap "m4_n3148_59482#" "output_driver_final_0/w_117179_62159#" 538.947
+cap "m4_n3148_59482#" "output_driver_final_0/a_117409_52841#" 893.114
+cap "output_driver_final_0/w_117179_62159#" "m4_n3148_59482#" 1.3488
+cap "output_driver_final_0/w_117179_62159#" "m4_n3148_59482#" 893.114
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" 5.61
+cap "m4_n3148_59482#" "output_driver_final_0/w_117179_62159#" 893.114
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" 0.21
+cap "output_driver_final_0/w_117179_62159#" "m4_n3148_59482#" -1003.78
+cap "output_driver_final_0/a_117361_62281#" "m4_n3148_59482#" -274.625
+cap "output_driver_final_0/w_117179_62159#" "m4_n3148_59482#" 0.174
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" 83.955
+cap "output_driver_final_0/a_117361_62281#" "m4_n3148_59482#" 157.745
+cap "avdd" "integrator_0/vi" 143.133
+subcap "m4_n53782_65794#" -1025.3
+cap "integrator_0/vdd" "integrator_0/vout" 500.857
+subcap "vbias7" -1060.8
+cap "output_driver_final_0/w_117179_62159#" "m4_n3148_59482#" 680.615
+cap "output_driver_final_0/a_117361_62281#" "m4_n3148_59482#" 764.348
+cap "m4_n3148_59482#" "output_driver_final_0/w_117179_62159#" 157.853
+cap "m4_n3148_59482#" "output_driver_final_0/a_117409_52841#" 416.387
+cap "m4_n3148_59482#" "output_driver_final_0/w_117179_62159#" 1.4628
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" 146.262
+cap "output_driver_final_0/w_117179_62159#" "m4_n3148_59482#" 898.714
+cap "m4_n3148_59482#" "output_driver_final_0/a_117409_52841#" 893.114
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" 5.7
+cap "m4_n3148_59482#" "output_driver_final_0/a_117409_52841#" 893.114
+cap "m4_n3148_59482#" "output_driver_final_0/a_117409_52841#" 893.114
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" 5.7
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" 4.752
+cap "m4_n3148_59482#" "output_driver_final_0/w_117179_62159#" 893.114
+cap "m4_n3148_59482#" "output_driver_final_0/w_117179_62159#" 893.114
+cap "m4_n3148_59482#" "output_driver_final_0/a_117409_52841#" 14.7268
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" 5.7
+cap "output_driver_final_0/a_117361_62281#" "m4_n3148_59482#" 5.7
+cap "output_driver_final_0/a_117361_62281#" "m4_n3148_59482#" -152.332
+cap "output_driver_final_0/a_117409_52841#" "m4_n3148_59482#" 893.114
+cap "output_driver_final_0/a_117409_52841#" "m4_n3148_59482#" 893.114
+cap "output_driver_final_0/a_117361_62281#" "m4_n3148_59482#" 5.7
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" -77.4352
+cap "output_driver_final_0/w_117179_62159#" "m4_n3148_59482#" 538.947
+cap "output_driver_final_0/w_117179_62159#" "m4_n3148_59482#" 1.362
+cap "output_driver_final_0/w_117179_62159#" "m4_n3148_59482#" 893.114
+cap "output_driver_final_0/a_117361_62281#" "m4_n3148_59482#" 5.7
+cap "output_driver_final_0/a_117409_52841#" "m4_n3148_59482#" 893.114
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" -127.224
+cap "output_driver_final_0/w_117179_62159#" "m4_n3148_59482#" 893.114
+cap "output_driver_final_0/w_117179_62159#" "m4_n3148_59482#" 893.114
+cap "m4_n3148_59482#" "output_driver_final_0/w_117179_62159#" 0.0744
+cap "output_driver_final_0/a_117361_62281#" "m4_n3148_59482#" 48.6592
+cap "output_driver_final_0/w_117179_62159#" "m4_n3148_59482#" -1003.78
+cap "avdd" "integrator_0/vi" 299.441
+subcap "m4_n53782_65794#" -2542.12
+cap "integrator_0/vout" "integrator_0/vdd" 934.214
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" 2.97
+cap "m4_n3148_59482#" "output_driver_final_0/a_117409_52841#" 351.87
+cap "m4_n3148_59482#" "output_driver_final_0/w_117179_62159#" 178.488
+cap "output_driver_final_0/a_117361_62281#" "m4_n3148_59482#" 817.496
+cap "output_driver_final_0/w_117179_62159#" "m4_n3148_59482#" 601.038
+cap "m4_n3148_59482#" "output_driver_final_0/a_117409_52841#" 789.261
+cap "output_driver_final_0/w_117179_62159#" "m4_n3148_59482#" 789.421
+cap "m4_n3148_59482#" "output_driver_final_0/w_117179_62159#" 789.261
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" -124.762
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" 2.97
+cap "m4_n3148_59482#" "output_driver_final_0/a_117409_52841#" 789.261
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" 2.97
+cap "m4_n3148_59482#" "output_driver_final_0/w_117179_62159#" 0.3197
+cap "m4_n3148_59482#" "output_driver_final_0/w_117179_62159#" 789.261
+cap "m4_n3148_59482#" "output_driver_final_0/a_117409_52841#" -140.76
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" 2.97
+cap "m4_n3148_59482#" "output_driver_final_0/a_117409_52841#" 789.261
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" -111.409
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" 2.97
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" 2.97
+cap "m4_n3148_59482#" "output_driver_final_0/a_117409_52841#" 789.261
+cap "output_driver_final_0/a_117361_62281#" "m4_n3148_59482#" 2.97
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" -496.111
+cap "m4_n3148_59482#" "output_driver_final_0/w_117179_62159#" 789.261
+cap "m4_n3148_59482#" "output_driver_final_0/w_117179_62159#" 789.261
+cap "output_driver_final_0/w_117179_62159#" "m4_n3148_59482#" -46.4199
+cap "m4_n3148_59482#" "output_driver_final_0/a_117409_52841#" 789.261
+cap "output_driver_final_0/a_117409_52841#" "m4_n3148_59482#" 789.261
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" -25.08
+cap "m4_n3148_59482#" "output_driver_final_0/w_117179_62159#" 789.261
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" -511.839
+cap "m4_n3148_59482#" "output_driver_final_0/w_117179_62159#" 466.15
+cap "output_driver_final_0/a_117361_62281#" "m4_n3148_59482#" 14.875
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" -276.438
+cap "m4_n3148_59482#" "output_driver_final_0/w_117179_62159#" -140.462
+cap "m4_n3148_59482#" "output_driver_final_0/w_117179_62159#" -1391.52
+cap "output_driver_final_0/a_117361_62281#" "m4_n3148_59482#" -301.82
+cap "output_driver_final_0/a_117361_62281#" "m4_n3148_59482#" -101.65
+cap "dead_time_final_0/w_71188_17360#" "dead_time_final_0/a_82446_20414#" 7.71277
+cap "output_driver_final_0/a_117409_52841#" "m4_n3148_59482#" 402.425
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" 766.68
+cap "output_driver_final_0/w_117179_62159#" "m4_n3148_59482#" 156.887
+cap "output_driver_final_0/w_117179_62159#" "m4_n3148_59482#" 676.552
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" 5.0625
+cap "m4_n3148_59482#" "output_driver_final_0/w_117179_62159#" 890.53
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" 5.0625
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" 4.13575
+cap "m4_n3148_59482#" "output_driver_final_0/w_117179_62159#" 890.21
+cap "m4_n3148_59482#" "output_driver_final_0/w_117179_62159#" 890.21
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" 5.0625
+cap "m4_n3148_59482#" "output_driver_final_0/w_117179_62159#" 2.1372
+cap "m4_n3148_59482#" "output_driver_final_0/a_117409_52841#" 890.21
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" 273.513
+cap "m4_n3148_59482#" "output_driver_final_0/a_117409_52841#" 890.21
+cap "m4_n3148_59482#" "output_driver_final_0/a_117409_52841#" 890.21
+cap "m4_n3148_59482#" "output_driver_final_0/a_117409_52841#" -90.2048
+cap "m4_n3148_59482#" "output_driver_final_0/w_117179_62159#" 2.0364
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" -82.9777
+cap "output_driver_final_0/a_117361_62281#" "m4_n3148_59482#" -152.353
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" 5.0625
+cap "m4_n3148_59482#" "output_driver_final_0/a_117409_52841#" 890.21
+cap "m4_n3148_59482#" "output_driver_final_0/a_117409_52841#" 890.21
+cap "m4_n3148_59482#" "output_driver_final_0/w_117179_62159#" 530.495
+cap "output_driver_final_0/a_117361_62281#" "m4_n3148_59482#" 5.0625
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" 5.0625
+cap "output_driver_final_0/w_117179_62159#" "m4_n3148_59482#" 890.21
+cap "m4_n3148_59482#" "output_driver_final_0/w_117179_62159#" 890.21
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" -287.858
+cap "m4_n3148_59482#" "output_driver_final_0/a_117409_52841#" 890.21
+cap "m4_n3148_59482#" "output_driver_final_0/w_117179_62159#" 890.21
+cap "output_driver_final_0/w_117179_62159#" "m4_n3148_59482#" 0.1614
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" 46.853
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" -111.202
+cap "m4_n3148_59482#" "output_driver_final_0/w_117179_62159#" -1441.13
+cap "dead_time_final_0/a_82446_20414#" "dead_time_final_0/w_71188_17360#" 66.99
+cap "dead_time_final_0/a_82446_20414#" "dead_time_final_0/w_71188_17360#" 7.71277
+cap "dead_time_final_0/w_71188_17360#" "dead_time_final_0/a_82446_20414#" 140.081
+cap "output_driver_final_0/w_117179_62159#" "m4_n3148_59482#" 156.878
+cap "output_driver_final_0/a_117361_62281#" "m4_n3148_59482#" 149.396
+cap "output_driver_final_0/a_117409_52841#" "m4_n3148_59482#" 416.387
+cap "output_driver_final_0/w_117179_62159#" "output_driver_final_0/a_117361_62281#" 212.063
+cap "output_driver_final_0/w_117179_62159#" "m4_n3148_59482#" 685.1
+cap "m4_n3148_59482#" "output_driver_final_0/a_117409_52841#" 893.114
+cap "m4_n3148_59482#" "output_driver_final_0/a_117409_52841#" 893.114
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" 345.516
+cap "m4_n3148_59482#" "output_driver_final_0/w_117179_62159#" 893.114
+cap "m4_n3148_59482#" "output_driver_final_0/a_117409_52841#" 893.114
+cap "m4_n3148_59482#" "output_driver_final_0/w_117179_62159#" 1.3488
+cap "m4_n3148_59482#" "output_driver_final_0/w_117179_62159#" 893.114
+cap "m4_n3148_59482#" "output_driver_final_0/a_117409_52841#" 14.7268
+cap "m4_n3148_59482#" "output_driver_final_0/w_117179_62159#" 898.714
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" -578.755
+cap "m4_n3148_59482#" "output_driver_final_0/w_117179_62159#" 893.114
+cap "m4_n3148_59482#" "output_driver_final_0/a_117409_52841#" 893.114
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" -1.7025
+cap "m4_n3148_59482#" "output_driver_final_0/w_117179_62159#" 538.947
+cap "m4_n3148_59482#" "output_driver_final_0/w_117179_62159#" 893.114
+cap "m4_n3148_59482#" "output_driver_final_0/a_117409_52841#" 893.114
+cap "m4_n3148_59482#" "output_driver_final_0/w_117179_62159#" 893.114
+cap "m4_n3148_59482#" "output_driver_final_0/a_117409_52841#" 893.114
+cap "m4_n3148_59482#" "output_driver_final_0/a_117361_62281#" -6.3375
+cap "m4_n3148_59482#" "output_driver_final_0/w_117179_62159#" 1.3488
+cap "output_driver_final_0/w_117179_62159#" "m4_n3148_59482#" -1003.78
+cap "output_driver_final_0/a_117361_62281#" "m4_n3148_59482#" 141.064
+cap "output_driver_final_0/a_117361_62281#" "m4_n3148_59482#" -274.625
+cap "output_driver_final_0/a_117361_62281#" "m4_n3148_59482#" 100.636
+cap "output_driver_final_0/w_117179_62159#" "m4_n3148_59482#" 0.174
+cap "dead_time_final_0/a_82446_20414#" "w_n68881_22331#" 66.99
+cap "dead_time_final_0/w_71638_18872#" "dead_time_final_0/a_82446_20414#" 22.6562
+cap "w_n68881_22331#" "dead_time_final_0/a_82446_20414#" 85.8764
+cap "output_driver_final_0/a_117409_52841#" "output_driver_final_0/a_117361_62281#" -1.13687e-13
+cap "output_driver_final_0/a_117361_62281#" "output_driver_final_0/w_117179_62159#" 591.562
+cap "output_driver_final_0/a_117409_52841#" "output_driver_final_0/w_117179_62159#" 336.835
+cap "output_driver_final_0/a_117409_52841#" "output_driver_final_0/w_117179_62159#" 758.582
+cap "output_driver_final_0/a_117361_62281#" "output_driver_final_0/w_117179_62159#" 3.5175
+cap "output_driver_final_0/w_117179_62159#" "output_driver_final_0/a_117409_52841#" 758.582
+cap "output_driver_final_0/w_117179_62159#" "output_driver_final_0/a_117361_62281#" 2.64225
+cap "output_driver_final_0/a_117409_52841#" "output_driver_final_0/w_117179_62159#" 758.582
+cap "output_driver_final_0/w_117179_62159#" "output_driver_final_0/a_117361_62281#" 3.5175
+cap "output_driver_final_0/a_117361_62281#" "output_driver_final_0/w_117179_62159#" 3.5175
+cap "output_driver_final_0/a_117409_52841#" "output_driver_final_0/w_117179_62159#" -156.404
+cap "output_driver_final_0/w_117179_62159#" "output_driver_final_0/a_117361_62281#" 129.272
+cap "output_driver_final_0/w_117179_62159#" "output_driver_final_0/a_117361_62281#" 3.5175
+cap "output_driver_final_0/w_117179_62159#" "output_driver_final_0/a_117409_52841#" 758.582
+cap "output_driver_final_0/w_117179_62159#" "output_driver_final_0/a_117361_62281#" 3.5175
+cap "output_driver_final_0/w_117179_62159#" "output_driver_final_0/a_117409_52841#" 758.582
+cap "output_driver_final_0/w_117179_62159#" "output_driver_final_0/a_117361_62281#" -538.271
+cap "output_driver_final_0/w_117179_62159#" "output_driver_final_0/a_117361_62281#" 3.5175
+cap "output_driver_final_0/w_117179_62159#" "output_driver_final_0/a_117409_52841#" 758.582
+cap "output_driver_final_0/w_117179_62159#" "output_driver_final_0/a_117361_62281#" -87.6127
+cap "output_driver_final_0/w_117179_62159#" "output_driver_final_0/a_117361_62281#" -152.405
+cap "output_driver_final_0/a_117361_62281#" "output_driver_final_0/w_117179_62159#" -301.82
+cap "output_driver_final_0/a_117361_62281#" "output_driver_final_0/w_117179_62159#" 6.4255
+merge "output_driver_final_0/w_117179_62159#" "dead_time_final_0/w_71188_17360#" -29675.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -89806292 -75068 0 0 0 0
+merge "dead_time_final_0/w_71188_17360#" "m4_n3148_59482#"
+merge "S_to_D_final_0/a_43997_341#" "vin_n" -1590.89 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -581136 -6910 0 0 0 0 0 0
+merge "dead_time_final_0/w_71638_18872#" "integrator_0/w_54142_8686#" -84719.4 0 0 -17593857 -39101 0 0 0 0 0 0 313196 -14920 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 308164 -15580 0 0 0 0 -5536156 -29841 -102419779 -290232 0 0 0 0
+merge "integrator_0/w_54142_8686#" "comparator_revised_0/vss"
+merge "comparator_revised_0/vss" "integrator_0/vss"
+merge "integrator_0/vss" "m4_n53782_55794#"
+merge "m4_n53782_55794#" "integrator_0/VSUBS"
+merge "integrator_0/VSUBS" "S_to_D_final_0/w_40625_17860#"
+merge "S_to_D_final_0/w_40625_17860#" "m4_n67946_50524#"
+merge "m4_n67946_50524#" "dead_time_final_0/w_71162_16994#"
+merge "dead_time_final_0/w_71162_16994#" "m3_n2674_48964#"
+merge "m3_n2674_48964#" "output_driver_final_0/w_117179_52631#"
+merge "output_driver_final_0/w_117179_52631#" "triangle_revised_0/vss"
+merge "triangle_revised_0/vss" "dvss"
+merge "dvss" "S_to_D_final_0/w_39339_4710#"
+merge "S_to_D_final_0/w_39339_4710#" "dead_time_final_1/w_71638_18872#"
+merge "dead_time_final_1/w_71638_18872#" "m3_n2674_6916#"
+merge "m3_n2674_6916#" "avss"
+merge "avss" "comparator_revised_1/vss"
+merge "comparator_revised_1/vss" "integrator_1/vss"
+merge "integrator_1/vss" "m4_n53782_24642#"
+merge "m4_n53782_24642#" "m4_n69140_29911#"
+merge "m4_n69140_29911#" "integrator_1/w_54142_8686#"
+merge "integrator_1/w_54142_8686#" "output_driver_final_0/w_117179_29309#"
+merge "output_driver_final_0/w_117179_29309#" "dead_time_final_1/w_71162_16994#"
+merge "dead_time_final_1/w_71162_16994#" "integrator_1/VSUBS"
+merge "integrator_1/VSUBS" "w_n68881_22331#"
+merge "S_to_D_final_0/a_40821_13288#" "vin_p" -5501.38 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -50362 -2008 -630142 -5162 -18312 -1878 -2237913 -14029 0 0 0 0 0 0
+merge "comparator_revised_0/vdd" "integrator_0/vdd" -13232.3 0 0 -2796000 -3530 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -14984922 -55029 0 0 0 0
+merge "integrator_0/vdd" "m4_n53782_65794#"
+merge "m4_n53782_65794#" "triangle_revised_0/vdd"
+merge "triangle_revised_0/vdd" "S_to_D_final_0/w_39137_6977#"
+merge "S_to_D_final_0/w_39137_6977#" "m4_n67848_39912#"
+merge "m4_n67848_39912#" "comparator_revised_1/vdd"
+merge "comparator_revised_1/vdd" "integrator_1/vdd"
+merge "integrator_1/vdd" "m4_n53782_14642#"
+merge "m4_n53782_14642#" "avdd"
+merge "output_driver_final_0/a_117361_29431#" "dead_time_final_1/a_77596_11864#" -2959.07 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -570676 -8650 346070 -7920 0 0 0 0 0 0 0 0
+merge "dead_time_final_1/a_77596_11864#" "vn_n"
+merge "output_driver_final_0/a_117361_12382#" "dead_time_final_1/a_82446_20414#" -3691.1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -488792 -5188 -1253376 -6684 0 0 0 0 0 0 0 0
+merge "dead_time_final_1/a_82446_20414#" "vn_p"
+merge "dead_time_final_0/a_71368_17226#" "comparator_revised_0/vout" -1193.88 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 463680 -7294 0 0 0 0 0 0 0 0 0 0
+merge "comparator_revised_0/vout" "vcmp_p"
+merge "comparator_revised_1/vp" "integrator_1/vout" -1711.09 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -113588 -4024 241014 -4440 0 0 0 0 0 0
+merge "integrator_1/vout" "error_n"
+merge "comparator_revised_0/vn" "triangle_revised_0/vt" -9643.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -57312 -2242 -6770364 -37084 0 0 0 0 0 0
+merge "triangle_revised_0/vt" "vtriang"
+merge "vtriang" "comparator_revised_1/vn"
+merge "comparator_revised_1/vn" "m2_n49962_17870#"
+merge "integrator_1/vbias" "vbias6" -74.434 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4760 -348 0 0 0 0 0 0 0 0 0 0
+merge "output_driver_final_0/a_117361_62281#" "dead_time_final_0/a_82446_20414#" -4843.91 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -390200 -5188 -3735338 -7870 0 0 0 0 0 0 0 0
+merge "dead_time_final_0/a_82446_20414#" "vp_p"
+merge "integrator_0/vbias" "vbias5" -68.0152 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2592 -340 0 0 0 0 0 0 0 0 0 0
+merge "integrator_0/vout" "comparator_revised_0/vp" -1127.07 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -374032 -3124 -42702 -1536 0 0 0 0 0 0
+merge "comparator_revised_0/vp" "error_p"
+merge "comparator_revised_1/vbias" "vbias8" -68.7068 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17928 -392 0 0 0 0 0 0 0 0 0 0
+merge "comparator_revised_0/vbias" "vbias7" -75.7762 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -9348 -340 0 0 0 0 0 0 0 0 0 0
+merge "dead_time_final_0/a_77596_11864#" "output_driver_final_0/a_117361_52753#" -2695.38 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -342036 -7494 84312 -7972 0 0 0 0 0 0 0 0
+merge "output_driver_final_0/a_117361_52753#" "vp_n"
+merge "dead_time_final_1/w_71188_17360#" "output_driver_final_0/w_117179_11332#" -32117.1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -101368555 -76106 0 0 0 0
+merge "output_driver_final_0/w_117179_11332#" "m4_n3148_17434#"
+merge "triangle_revised_0/vbias1" "vbias1" -75.1144 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3024 -376 0 0 0 0 0 0 0 0 0 0
+merge "dead_time_final_1/a_71368_17226#" "comparator_revised_1/vout" -1378.52 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -536936 -5022 0 0 0 0 0 0 0 0 0 0
+merge "comparator_revised_1/vout" "vcmp_n"
+merge "triangle_revised_0/vbias2" "vbias2" -102.097 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -64980 -292 0 0 0 0 0 0 0 0 0 0
+merge "S_to_D_final_0/a_39275_10997#" "vbias3" -67.744 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4560 -316 0 0 0 0 0 0 0 0 0 0
+merge "integrator_0/vi" "a_n68715_58873#" -2122.77 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -823007 -6958 -7860 -2070 0 0 0 0 0 0 0 0
+merge "S_to_D_final_0/a_39275_7196#" "vbias4" -59.7168 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6528 -312 0 0 0 0 0 0 0 0 0 0
+merge "integrator_1/vi" "a_n68715_22497#" -2668.32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -71672 0 -999526 -6936 -130400 -5182 0 0 0 0 0 0 0 0

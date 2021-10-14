@@ -1,0 +1,24 @@
+Flattening unmatched subcell OTA_int in circuit /home/eda/.xschem/simulations/integrator.spice (0)(1 instance)
+Flattening unmatched subcell OTA_int_revised in circuit /home/eda/magic/class_d_audio_amplifier/integrator/integrator.spice (1)(1 instance)
+Equate elements:  no current cell.
+Equate elements:  no current cell.
+Equate elements:  no current cell.
+Equate elements:  no current cell.
+Class /home/eda/.xschem/simulations/integrator.spice:  Merged 1 devices.
+Class /home/eda/magic/class_d_audio_amplifier/integrator/integrator.spice:  Merged 232 devices.
+
+Subcircuit summary:
+Circuit 1: /home/eda/.xschem/simulations/i |Circuit 2: /home/eda/magic/class_d_audio_a 
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8_lvt (5)            |sky130_fd_pr__pfet_01v8_lvt (5)            
+sky130_fd_pr__nfet_01v8_lvt (3)            |sky130_fd_pr__nfet_01v8_lvt (3)            
+sky130_fd_pr__cap_mim_m3_1 (2)             |sky130_fd_pr__cap_mim_m3_1 (2)             
+sky130_fd_pr__res_xhigh_po (1)             |sky130_fd_pr__res_xhigh_po (1)             
+Number of devices: 11                      |Number of devices: 11                      
+Number of nets: 10                         |Number of nets: 10                         
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Netlists match uniquely.
+Cells have no pins;  pin matching not needed.
+Device classes /home/eda/.xschem/simulations/integrator.spice and /home/eda/magic/class_d_audio_amplifier/integrator/integrator.spice are equivalent.
+Circuits match uniquely.

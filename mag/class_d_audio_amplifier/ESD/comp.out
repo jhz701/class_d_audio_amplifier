@@ -1,0 +1,17 @@
+
+Cell sky130_fd_pr__diode_pd2nw_05v5 disconnected node: anode
+Cell sky130_fd_pr__diode_pd2nw_05v5 disconnected node: cathode
+Equate elements:  no current cell.
+
+Subcircuit summary:
+Circuit 1: /home/eda/.xschem/simulations/i |Circuit 2: io_clamp.spice                  
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__diode_pd2nw_05v5 (4)         |sky130_fd_pr__diode_pd2nw_05v5 (4)         
+Number of devices: 4                       |Number of devices: 4                       
+Number of nets: 5                          |Number of nets: 5                          
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Netlists match uniquely.
+Cells have no pins;  pin matching not needed.
+Device classes /home/eda/.xschem/simulations/io_clamp.spice and io_clamp.spice are equivalent.
+Circuits match uniquely.

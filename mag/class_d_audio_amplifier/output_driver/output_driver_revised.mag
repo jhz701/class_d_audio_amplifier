@@ -1,0 +1,43 @@
+magic
+tech sky130A
+timestamp 1630322492
+<< metal1 >>
+rect 375 19335 509 19935
+rect 244 3133 418 3607
+rect 295 -20002 485 -19643
+rect 345 -34896 507 -34549
+<< metal3 >>
+rect 19339 6512 28791 11159
+rect 20914 -29986 25640 -25102
+<< metal4 >>
+rect 10530 26587 20346 30815
+rect -12 -10990 33569 -5501
+rect 10153 -47070 16797 -45183
+use half_driver_revised  half_driver_revised_0
+timestamp 1630313909
+transform 1 0 -50568 0 1 19094
+box 50556 -24595 84156 12714
+use half_driver_revised  half_driver_revised_1
+timestamp 1630313909
+transform 1 0 -50568 0 -1 -35585
+box 50556 -24595 84156 12714
+<< labels >>
+flabel metal4 13530 -7650 13530 -7650 0 FreeSans 8000 0 0 0 vss
+port 3 nsew
+flabel metal4 12839 -46331 12839 -46331 0 FreeSans 8000 0 0 0 dvdd2
+port 8 nsew
+flabel metal3 22726 -28489 22726 -28489 0 FreeSans 8000 0 0 0 out_n
+port 6 nsew
+flabel metal1 345 -34896 507 -34549 0 FreeSans 8000 0 0 0 vn_p
+port 5 nsew
+flabel metal1 349 -19842 349 -19842 0 FreeSans 8000 0 0 0 vn_n
+port 7 nsew
+flabel metal1 437 19611 437 19611 0 FreeSans 8000 0 0 0 vp_p
+port 1 nsew
+flabel metal1 302 3371 302 3371 0 FreeSans 8000 0 0 0 vp_n
+port 4 nsew
+flabel metal3 24459 8324 24459 8324 0 FreeSans 8000 0 0 0 out_p
+port 2 nsew
+flabel metal4 14481 27806 14481 27806 0 FreeSans 8000 0 0 0 dvdd1
+port 0 nsew
+<< end >>

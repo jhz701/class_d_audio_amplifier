@@ -1,0 +1,68 @@
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_L4T9AL in circuit inverter (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_UPT43B in circuit inverter (1)(1 instance)
+Equate elements:  no current cell.
+Equate elements:  no current cell.
+
+Subcircuit summary:
+Circuit 1: inverter                        |Circuit 2: inverter                        
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (1)                |sky130_fd_pr__nfet_01v8 (1)                
+sky130_fd_pr__pfet_01v8 (1)                |sky130_fd_pr__pfet_01v8 (1)                
+Number of devices: 2                       |Number of devices: 2                       
+Number of nets: 4                          |Number of nets: 4                          
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: inverter                        |Circuit 2: inverter                        
+-------------------------------------------|-------------------------------------------
+vdd                                        |vdd                                        
+A                                          |A                                          
+B                                          |B                                          
+vss                                        |vss                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes inverter and inverter are equivalent.
+
+Subcircuit summary:
+Circuit 1: nand                            |Circuit 2: nand                            
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (2)                |sky130_fd_pr__nfet_01v8 (2)                
+sky130_fd_pr__pfet_01v8 (2)                |sky130_fd_pr__pfet_01v8 (2)                
+Number of devices: 4                       |Number of devices: 4                       
+Number of nets: 6                          |Number of nets: 6                          
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: nand                            |Circuit 2: nand                            
+-------------------------------------------|-------------------------------------------
+vdd                                        |vdd                                        
+B                                          |B                                          
+A                                          |A                                          
+out                                        |out                                        
+vss                                        |vss                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes nand and nand are equivalent.
+Equate elements:  no current cell.
+Class /home/eda/magic/class_d_audio_amplifier/dead_time/dead_time.spice:  Merged 30 devices.
+
+Subcircuit summary:
+Circuit 1: /home/eda/.xschem/simulations/d |Circuit 2: /home/eda/magic/class_d_audio_a 
+-------------------------------------------|-------------------------------------------
+inverter (1)                               |inverter (1)                               
+nand (2)                                   |nand (2)                                   
+sky130_fd_pr__cap_mim_m3_1 (2)             |sky130_fd_pr__cap_mim_m3_1 (2)             
+sky130_fd_pr__nfet_01v8 (7)                |sky130_fd_pr__nfet_01v8 (7)                
+sky130_fd_pr__pfet_01v8 (7)                |sky130_fd_pr__pfet_01v8 (7)                
+Number of devices: 19                      |Number of devices: 19                      
+Number of nets: 13                         |Number of nets: 13                         
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Netlists match uniquely.
+Cells have no pins;  pin matching not needed.
+Device classes /home/eda/.xschem/simulations/dead_time.spice and /home/eda/magic/class_d_audio_amplifier/dead_time/dead_time.spice are equivalent.
+Circuits match uniquely.

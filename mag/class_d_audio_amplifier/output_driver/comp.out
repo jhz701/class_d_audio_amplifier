@@ -1,0 +1,21 @@
+Flattening unmatched subcell half_driver_revised in circuit output_driver_revised.spice (0)(2 instances)
+Flattening unmatched subcell half_driver in circuit /home/eda/.xschem/simulations/output_driver.spice (1)(2 instances)
+Equate elements:  no current cell.
+Equate elements:  no current cell.
+Class output_driver_revised.spice:  Merged 7196 devices.
+
+Subcircuit summary:
+Circuit 1: output_driver_revised.spice     |Circuit 2: /home/eda/.xschem/simulations/o 
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8 (2)                |sky130_fd_pr__pfet_01v8 (2)                
+sky130_fd_pr__nfet_01v8 (2)                |sky130_fd_pr__nfet_01v8 (2)                
+Number of devices: 4                       |Number of devices: 4                       
+Number of nets: 9                          |Number of nets: 9                          
+---------------------------------------------------------------------------------------
+Resolving automorphisms by property value.
+Resolving automorphisms by pin name.
+Netlists match with 6 symmetries.
+Circuits match correctly.
+Cells have no pins;  pin matching not needed.
+Device classes output_driver_revised.spice and /home/eda/.xschem/simulations/output_driver.spice are equivalent.
+Circuits match uniquely.

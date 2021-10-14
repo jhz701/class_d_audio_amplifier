@@ -1,0 +1,11 @@
+* NGSPICE file created from io_clamp.ext - technology: sky130A
+
+
+* Top level circuit io_clamp
+
+X0 w_16903_n18543# w_16903_n23543# sky130_fd_pr__diode_pd2nw_05v5 area=4e+14p
+X1 w_16903_n13543# w_16903_n18543# sky130_fd_pr__diode_pd2nw_05v5 area=4e+14p
+X2 vdd w_16903_n13543# sky130_fd_pr__diode_pd2nw_05v5 area=4e+14p
+X3 w_16903_n23543# vss sky130_fd_pr__diode_pd2nw_05v5 area=4e+14p
+.end
+

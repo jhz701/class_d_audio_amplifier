@@ -1,0 +1,17 @@
+* NGSPICE file created from /home/eda/magic/class_d_audio_amplifier/OTA/OTA_revised.ext - technology: sky130A
+
+
+* Top level circuit /home/eda/magic/class_d_audio_amplifier/OTA/OTA_revised
+
+X0 vdd vbias vbias vdd sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=2e+06u l=1e+06u M=24
+X1 vss a_981_n7583# a_981_n7583# vss sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u M=16
+X2 vout vbias vdd vdd sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=2e+06u l=1e+06u M=48
+X3 a_981_n7583# vn w_785_n5483# w_785_n5483# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u M=16
+X4 vss a_1925_n7495# vout vss sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u M=64
+X5 w_785_n5483# vbias vdd vdd sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=2e+06u l=1e+06u M=24
+X6 a_1925_n7495# vp w_785_n5483# w_785_n5483# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u M=16
+X7 vss a_981_n7583# a_1925_n7495# vss sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u M=16
+X8 a_1925_n7495# a_6115_n3891# vss sky130_fd_pr__res_xhigh_po w=350000u l=500000u
+X9 a_6115_n3891# vout sky130_fd_pr__cap_mim_m3_1 l=1.4e+07u w=1.4e+07u
+.end
+

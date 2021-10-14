@@ -1,0 +1,9 @@
+* NGSPICE file created from ESD.ext - technology: sky130A
+
+
+* Top level circuit ESD
+
+X0 vin vdd sky130_fd_pr__diode_pd2nw_05v5 area=4e+14p
+X1 vss vin sky130_fd_pr__diode_pw2nd_05v5 area=4e+14p
+.end
+

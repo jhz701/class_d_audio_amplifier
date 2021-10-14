@@ -1,0 +1,48 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1628336106
+<< metal1 >>
+rect 2586 -74556 3158 -73460
+rect 2554 -86064 3172 -83628
+rect 2480 -123127 3100 -120143
+rect 2518 -133527 3208 -132581
+<< metal3 >>
+rect 25342 -80744 31910 -76804
+rect 26900 -130045 30674 -127861
+<< metal4 >>
+rect -14264 -71736 18114 -66274
+rect -14264 -100122 -4252 -71736
+rect -14448 -135996 -4152 -100122
+rect 2296 -100308 36832 -97326
+rect 2228 -108768 36764 -105786
+rect -14448 -140418 12378 -135996
+rect -14402 -141704 12378 -140418
+use half_driver  half_driver_1
+timestamp 1628260018
+transform 1 0 7434 0 -1 130465
+box -5008 236660 27624 272229
+use half_driver  half_driver_0
+timestamp 1628260018
+transform 1 0 7434 0 1 -337328
+box -5008 236660 27624 272229
+<< labels >>
+flabel metal4 -12834 -78888 -12834 -78888 0 FreeSans 8000 0 0 0 vss
+port 3 nsew
+flabel metal1 2876 -73740 2876 -73740 0 FreeSans 8000 0 0 0 vp_n
+port 4 nsew
+flabel metal1 2808 -84864 2808 -84864 0 FreeSans 8000 0 0 0 vp_p
+port 1 nsew
+flabel metal3 28716 -78050 28716 -78050 0 FreeSans 8000 0 0 0 out_p
+port 2 nsew
+flabel metal1 2844 -133201 2844 -133201 0 FreeSans 8000 0 0 0 vn_n
+port 7 nsew
+flabel metal1 2736 -121889 2736 -121889 0 FreeSans 8000 0 0 0 vn_p
+port 5 nsew
+flabel metal3 29638 -128825 29638 -128825 0 FreeSans 8000 0 0 0 out_n
+port 6 nsew
+flabel metal4 23864 -99614 23864 -99614 0 FreeSans 8000 0 0 0 vdd1
+port 0 nsew
+flabel metal4 20496 -107424 20496 -107424 0 FreeSans 8000 0 0 0 vdd2
+port 8 nsew
+<< end >>

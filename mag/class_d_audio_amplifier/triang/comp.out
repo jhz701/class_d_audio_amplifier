@@ -1,0 +1,25 @@
+Flattening unmatched subcell OTA_tri in circuit /home/eda/.xschem/simulations/triangle.spice (0)(1 instance)
+Flattening unmatched subcell OTA in circuit /home/eda/.xschem/simulations/triangle.spice (0)(1 instance)
+Flattening unmatched subcell OTA_tri_revised in circuit /home/eda/magic/class_d_audio_amplifier/triang/triangle_revised.spice (1)(1 instance)
+Flattening unmatched subcell OTA_revised in circuit /home/eda/magic/class_d_audio_amplifier/triang/triangle_revised.spice (1)(1 instance)
+Equate elements:  no current cell.
+Equate elements:  no current cell.
+Equate elements:  no current cell.
+Equate elements:  no current cell.
+Class /home/eda/magic/class_d_audio_amplifier/triang/triangle_revised.spice:  Merged 439 devices.
+
+Subcircuit summary:
+Circuit 1: /home/eda/.xschem/simulations/t |Circuit 2: /home/eda/magic/class_d_audio_a 
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__cap_mim_m3_1 (3)             |sky130_fd_pr__cap_mim_m3_1 (3)             
+sky130_fd_pr__res_xhigh_po (5)             |sky130_fd_pr__res_xhigh_po (5)             
+sky130_fd_pr__pfet_01v8_lvt (10)           |sky130_fd_pr__pfet_01v8_lvt (10)           
+sky130_fd_pr__nfet_01v8_lvt (6)            |sky130_fd_pr__nfet_01v8_lvt (6)            
+Number of devices: 24                      |Number of devices: 24                      
+Number of nets: 17                         |Number of nets: 17                         
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Netlists match uniquely.
+Cells have no pins;  pin matching not needed.
+Device classes /home/eda/.xschem/simulations/triangle.spice and /home/eda/magic/class_d_audio_amplifier/triang/triangle_revised.spice are equivalent.
+Circuits match uniquely.

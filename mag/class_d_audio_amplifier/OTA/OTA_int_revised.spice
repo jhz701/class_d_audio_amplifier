@@ -1,0 +1,18 @@
+* NGSPICE file created from OTA_int_revised.ext - technology: sky130A
+
+
+* Top level circuit OTA_int_revised
+
+X0 vdd vbias vout vdd sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=2e+06u l=1e+06u M=48
+X1 vss a_21167_3051# vout vss sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u M=64
+X2 w_20027_5063# vn a_20223_2963# w_20027_5063# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u M=16
+X3 a_21167_3051# vp w_20027_5063# w_20027_5063# sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=1e+06u M=16
+X4 a_21167_3051# a_20223_2963# vss vss sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u M=16
+X5 vdd vbias vbias vdd sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=2e+06u l=1e+06u M=24
+X6 w_20027_5063# vbias vdd vdd sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=2e+06u l=1e+06u M=24
+X7 a_20223_2963# a_20223_2963# vss vss sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=1e+06u l=1e+06u M=16
+X8 a_23819_6897# vout sky130_fd_pr__cap_mim_m3_1 l=1.4e+07u w=3e+07u
+X9 a_21167_3051# a_23819_6897# vss sky130_fd_pr__res_xhigh_po w=350000u l=2.8e+06u
+X10 a_23819_6897# vout sky130_fd_pr__cap_mim_m3_1 l=3e+07u w=1.4e+07u
+.end
+

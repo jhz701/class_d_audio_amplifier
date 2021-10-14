@@ -1,0 +1,97 @@
+timestamp 1629274185
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 2200000 3050000 1700000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12200 125 125 47 47 29 5
+parameters sky130_fd_pr__nfet_01v8_lvt l=l w=w a1=as p1=ps a2=ad p2=pd
+node "vbias8" 17490 1334.91 4947 -3099 ndif 0 0 0 0 0 0 0 0 371200 13728 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 219776 13472 583856 7872 750932 8616 0 0 0 0 0 0 0 0
+node "vbias7" 17490 2201.98 3803 -3099 ndif 0 0 0 0 0 0 0 0 371200 13728 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 219776 13472 583856 7872 750932 8616 0 0 0 0 0 0 0 0
+node "vbias6" 17490 2201.98 2659 -3099 ndif 0 0 0 0 0 0 0 0 371200 13728 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 219776 13472 583856 7872 750932 8616 0 0 0 0 0 0 0 0
+node "vbias5" 17490 2201.98 1515 -3099 ndif 0 0 0 0 0 0 0 0 371200 13728 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 219776 13472 583856 7872 750932 8616 0 0 0 0 0 0 0 0
+node "vbias4" 17490 2201.98 -773 -3099 ndif 0 0 0 0 0 0 0 0 371200 13728 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 219776 13472 583856 7872 750932 8616 0 0 0 0 0 0 0 0
+node "vbias3" 17490 2201.98 -1917 -3099 ndif 0 0 0 0 0 0 0 0 371200 13728 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 219776 13472 583856 7872 750932 8616 0 0 0 0 0 0 0 0
+node "vbias2" 17490 2201.98 -3061 -3099 ndif 0 0 0 0 0 0 0 0 371200 13728 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 219776 13472 583856 7872 750932 8616 0 0 0 0 0 0 0 0
+node "vbias1" 17490 1334.91 -4205 -3099 ndif 0 0 0 0 0 0 0 0 371200 13728 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 219776 13472 583856 7872 750932 8616 0 0 0 0 0 0 0 0
+node "iin" 15068 109628 -4605 -3187 p 0 0 0 0 0 0 0 0 371200 13728 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 28108800 198144 0 0 2178176 138464 6367828 109032 0 0 0 0 0 0 0 0 0 0
+substrate "vss" 0 0 -4801 -3309 pw 0 0 44945384 29580 0 0 0 0 3340800 123552 991304 58312 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2998088 180360 6023252 93768 6686660 76900 537240 9280 9132448 22732 0 0 0 0
+cap "iin" "vbias5" 6580.33
+cap "iin" "vbias6" 6580.33
+cap "vbias8" "iin" 6580.33
+cap "iin" "vbias4" 6580.33
+cap "iin" "vbias3" 6580.33
+cap "iin" "vbias7" 6580.33
+cap "iin" "vbias2" 6580.33
+cap "iin" "vbias1" 6580.33
+device msubckt sky130_fd_pr__nfet_01v8_lvt 5119 -3099 5120 -3098 l=400 w=800 "vss" "iin" 800 0 "vbias8" 800 0 "vss" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 4547 -3099 4548 -3098 l=400 w=800 "vss" "iin" 800 0 "vss" 800 0 "vbias8" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 3975 -3099 3976 -3098 l=400 w=800 "vss" "iin" 800 0 "vbias7" 800 0 "vss" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 3403 -3099 3404 -3098 l=400 w=800 "vss" "iin" 800 0 "vss" 800 0 "vbias7" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 2831 -3099 2832 -3098 l=400 w=800 "vss" "iin" 800 0 "vbias6" 800 0 "vss" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 2259 -3099 2260 -3098 l=400 w=800 "vss" "iin" 800 0 "vss" 800 0 "vbias6" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 1687 -3099 1688 -3098 l=400 w=800 "vss" "iin" 800 0 "vbias5" 800 0 "vss" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 1115 -3099 1116 -3098 l=400 w=800 "vss" "iin" 800 0 "vss" 800 0 "vbias5" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 543 -3099 544 -3098 l=400 w=800 "vss" "iin" 800 0 "iin" 800 0 "vss" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt -29 -3099 -28 -3098 l=400 w=800 "vss" "iin" 800 0 "vss" 800 0 "iin" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt -601 -3099 -600 -3098 l=400 w=800 "vss" "iin" 800 0 "vbias4" 800 0 "vss" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt -1173 -3099 -1172 -3098 l=400 w=800 "vss" "iin" 800 0 "vss" 800 0 "vbias4" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt -1745 -3099 -1744 -3098 l=400 w=800 "vss" "iin" 800 0 "vbias3" 800 0 "vss" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt -2317 -3099 -2316 -3098 l=400 w=800 "vss" "iin" 800 0 "vss" 800 0 "vbias3" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt -2889 -3099 -2888 -3098 l=400 w=800 "vss" "iin" 800 0 "vbias2" 800 0 "vss" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt -3461 -3099 -3460 -3098 l=400 w=800 "vss" "iin" 800 0 "vss" 800 0 "vbias2" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt -4033 -3099 -4032 -3098 l=400 w=800 "vss" "iin" 800 0 "vbias1" 800 0 "vss" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt -4605 -3099 -4604 -3098 l=400 w=800 "vss" "iin" 800 0 "vss" 800 0 "vbias1" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 5119 -2081 5120 -2080 l=400 w=800 "vss" "iin" 800 0 "vbias8" 800 0 "vss" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 4547 -2081 4548 -2080 l=400 w=800 "vss" "iin" 800 0 "vss" 800 0 "vbias8" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 3975 -2081 3976 -2080 l=400 w=800 "vss" "iin" 800 0 "vbias7" 800 0 "vss" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 3403 -2081 3404 -2080 l=400 w=800 "vss" "iin" 800 0 "vss" 800 0 "vbias7" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 2831 -2081 2832 -2080 l=400 w=800 "vss" "iin" 800 0 "vbias6" 800 0 "vss" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 2259 -2081 2260 -2080 l=400 w=800 "vss" "iin" 800 0 "vss" 800 0 "vbias6" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 1687 -2081 1688 -2080 l=400 w=800 "vss" "iin" 800 0 "vbias5" 800 0 "vss" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 1115 -2081 1116 -2080 l=400 w=800 "vss" "iin" 800 0 "vss" 800 0 "vbias5" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 543 -2081 544 -2080 l=400 w=800 "vss" "iin" 800 0 "iin" 800 0 "vss" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt -29 -2081 -28 -2080 l=400 w=800 "vss" "iin" 800 0 "vss" 800 0 "iin" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt -601 -2081 -600 -2080 l=400 w=800 "vss" "iin" 800 0 "vbias4" 800 0 "vss" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt -1173 -2081 -1172 -2080 l=400 w=800 "vss" "iin" 800 0 "vss" 800 0 "vbias4" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt -1745 -2081 -1744 -2080 l=400 w=800 "vss" "iin" 800 0 "vbias3" 800 0 "vss" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt -2317 -2081 -2316 -2080 l=400 w=800 "vss" "iin" 800 0 "vss" 800 0 "vbias3" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt -2889 -2081 -2888 -2080 l=400 w=800 "vss" "iin" 800 0 "vbias2" 800 0 "vss" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt -3461 -2081 -3460 -2080 l=400 w=800 "vss" "iin" 800 0 "vss" 800 0 "vbias2" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt -4033 -2081 -4032 -2080 l=400 w=800 "vss" "iin" 800 0 "vbias1" 800 0 "vss" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt -4605 -2081 -4604 -2080 l=400 w=800 "vss" "iin" 800 0 "vss" 800 0 "vbias1" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 5119 -1063 5120 -1062 l=400 w=800 "vss" "iin" 800 0 "vbias8" 800 0 "vss" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 4547 -1063 4548 -1062 l=400 w=800 "vss" "iin" 800 0 "vss" 800 0 "vbias8" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 3975 -1063 3976 -1062 l=400 w=800 "vss" "iin" 800 0 "vbias7" 800 0 "vss" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 3403 -1063 3404 -1062 l=400 w=800 "vss" "iin" 800 0 "vss" 800 0 "vbias7" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 2831 -1063 2832 -1062 l=400 w=800 "vss" "iin" 800 0 "vbias6" 800 0 "vss" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 2259 -1063 2260 -1062 l=400 w=800 "vss" "iin" 800 0 "vss" 800 0 "vbias6" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 1687 -1063 1688 -1062 l=400 w=800 "vss" "iin" 800 0 "vbias5" 800 0 "vss" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 1115 -1063 1116 -1062 l=400 w=800 "vss" "iin" 800 0 "vss" 800 0 "vbias5" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 543 -1063 544 -1062 l=400 w=800 "vss" "iin" 800 0 "iin" 800 0 "vss" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt -29 -1063 -28 -1062 l=400 w=800 "vss" "iin" 800 0 "vss" 800 0 "iin" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt -601 -1063 -600 -1062 l=400 w=800 "vss" "iin" 800 0 "vbias4" 800 0 "vss" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt -1173 -1063 -1172 -1062 l=400 w=800 "vss" "iin" 800 0 "vss" 800 0 "vbias4" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt -1745 -1063 -1744 -1062 l=400 w=800 "vss" "iin" 800 0 "vbias3" 800 0 "vss" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt -2317 -1063 -2316 -1062 l=400 w=800 "vss" "iin" 800 0 "vss" 800 0 "vbias3" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt -2889 -1063 -2888 -1062 l=400 w=800 "vss" "iin" 800 0 "vbias2" 800 0 "vss" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt -3461 -1063 -3460 -1062 l=400 w=800 "vss" "iin" 800 0 "vss" 800 0 "vbias2" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt -4033 -1063 -4032 -1062 l=400 w=800 "vss" "iin" 800 0 "vbias1" 800 0 "vss" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt -4605 -1063 -4604 -1062 l=400 w=800 "vss" "iin" 800 0 "vss" 800 0 "vbias1" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 5119 -45 5120 -44 l=400 w=800 "vss" "iin" 800 0 "vbias8" 800 0 "vss" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 4547 -45 4548 -44 l=400 w=800 "vss" "iin" 800 0 "vss" 800 0 "vbias8" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 3975 -45 3976 -44 l=400 w=800 "vss" "iin" 800 0 "vbias7" 800 0 "vss" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 3403 -45 3404 -44 l=400 w=800 "vss" "iin" 800 0 "vss" 800 0 "vbias7" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 2831 -45 2832 -44 l=400 w=800 "vss" "iin" 800 0 "vbias6" 800 0 "vss" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 2259 -45 2260 -44 l=400 w=800 "vss" "iin" 800 0 "vss" 800 0 "vbias6" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 1687 -45 1688 -44 l=400 w=800 "vss" "iin" 800 0 "vbias5" 800 0 "vss" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 1115 -45 1116 -44 l=400 w=800 "vss" "iin" 800 0 "vss" 800 0 "vbias5" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 543 -45 544 -44 l=400 w=800 "vss" "iin" 800 0 "iin" 800 0 "vss" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt -29 -45 -28 -44 l=400 w=800 "vss" "iin" 800 0 "vss" 800 0 "iin" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt -601 -45 -600 -44 l=400 w=800 "vss" "iin" 800 0 "vbias4" 800 0 "vss" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt -1173 -45 -1172 -44 l=400 w=800 "vss" "iin" 800 0 "vss" 800 0 "vbias4" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt -1745 -45 -1744 -44 l=400 w=800 "vss" "iin" 800 0 "vbias3" 800 0 "vss" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt -2317 -45 -2316 -44 l=400 w=800 "vss" "iin" 800 0 "vss" 800 0 "vbias3" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt -2889 -45 -2888 -44 l=400 w=800 "vss" "iin" 800 0 "vbias2" 800 0 "vss" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt -3461 -45 -3460 -44 l=400 w=800 "vss" "iin" 800 0 "vss" 800 0 "vbias2" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt -4033 -45 -4032 -44 l=400 w=800 "vss" "iin" 800 0 "vbias1" 800 0 "vss" 800 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt -4605 -45 -4604 -44 l=400 w=800 "vss" "iin" 800 0 "vss" 800 0 "vbias1" 800 0
