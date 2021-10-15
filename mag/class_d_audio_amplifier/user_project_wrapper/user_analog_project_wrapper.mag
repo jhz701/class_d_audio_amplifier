@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1633457050
+timestamp 1634270025
 << viali >>
 rect 138660 692070 168680 692240
 rect 182650 692210 212550 692430
@@ -1504,37 +1504,37 @@ rect -100 704000 584100 704100
 rect -100 0 0 704000
 rect 584000 0 584100 704000
 rect -100 -100 584100 0
-use ESD  ESD_1 ~/magic/class_d_audio_amplifier/ESD
-timestamp 1632368578
-transform 1 0 423209 0 1 590403
-box 61491 -30343 92043 43981
-use ESD  ESD_0
-timestamp 1632368578
-transform 0 1 168873 -1 0 753783
-box 61491 -30343 92043 43981
-use io_clamp  io_clamp_1 ~/magic/class_d_audio_amplifier/ESD
-timestamp 1632370638
-transform 1 0 -57930 0 1 644386
-box 96560 -114826 127112 23742
-use io_clamp  io_clamp_0
-timestamp 1632370638
-transform 1 0 442380 0 1 391506
-box 96560 -114826 127112 23742
 use Class_D_post  Class_D_post_0 ~/magic/class_d_audio_amplifier/Class_D
-timestamp 1632444672
+timestamp 1634268078
 transform 0 -1 297950 1 0 497564
 box -195474 -114424 152224 195624
-use ESD  ESD_2
+use ESD  ESD_4 ~/magic/class_d_audio_amplifier/ESD
 timestamp 1632368578
-transform 1 0 55009 0 1 259693
+transform -1 0 419733 0 -1 146891
 box 61491 -30343 92043 43981
 use ESD  ESD_3
 timestamp 1632368578
 transform 1 0 266049 0 1 221183
 box 61491 -30343 92043 43981
-use ESD  ESD_4
+use ESD  ESD_2
 timestamp 1632368578
-transform -1 0 419733 0 -1 146891
+transform 1 0 55009 0 1 259693
+box 61491 -30343 92043 43981
+use io_clamp  io_clamp_0 ~/magic/class_d_audio_amplifier/ESD
+timestamp 1632370638
+transform 1 0 442380 0 1 391506
+box 96560 -114826 127112 23742
+use io_clamp  io_clamp_1
+timestamp 1632370638
+transform 1 0 -57930 0 1 644386
+box 96560 -114826 127112 23742
+use ESD  ESD_0
+timestamp 1632368578
+transform 0 1 168873 -1 0 753783
+box 61491 -30343 92043 43981
+use ESD  ESD_1
+timestamp 1632368578
+transform 1 0 423209 0 1 590403
 box 61491 -30343 92043 43981
 << labels >>
 flabel metal3 s 583520 269230 584800 269342 0 FreeSans 1120 0 0 0 gpio_analog[0]
