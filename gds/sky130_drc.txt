@@ -321,72 +321,7 @@
    <references>
    </references>
   </cell>
-  <cell>
-   <name>Class_D_post</name>
-   <variant/>
-   <references>
-    <ref>
-     <parent>user_analog_project_wrapper</parent>
-     <trans>r90 *1 1489.75,2487.82</trans>
-    </ref>
-   </references>
-  </cell>
  </cells>
  <items>
-  <item>
-   <tags/>
-   <category>'capm.2b'</category>
-   <cell>Class_D_post</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <image/>
-   <values>
-    <value>edge-pair: (-249.5,300.909;-249.5,307.091)|(-250,306;-250,302)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'capm.2b'</category>
-   <cell>Class_D_post</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <image/>
-   <values>
-    <value>edge-pair: (-249.81,100.518;-249.81,106.072)|(-250.36,105.005;-250.36,101.585)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'capm.2b'</category>
-   <cell>Class_D_post</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <image/>
-   <values>
-    <value>edge-pair: (-253.5,89.403;-253.5,98)|(-254.66,98.307;-254.66,89.71)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'capm.2b_a'</category>
-   <cell>Class_D_post</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <image/>
-   <values>
-    <value>edge-pair: (-269.18,91.804;-269.18,107.736)|(-270.05,106.91;-270.05,92.63)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'capm.2b_a'</category>
-   <cell>Class_D_post</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <image/>
-   <values>
-    <value>edge-pair: (-269.18,299.464;-269.18,315.396)|(-270.05,314.57;-270.05,300.29)</value>
-   </values>
-  </item>
  </items>
 </report-database>
